@@ -1,0 +1,15 @@
+{
+  "name": "uky-web/patternlab-artifact",
+  "description": "This repository is the product of the built artifact from uky-web/patternlab",
+  "type": "drupal-library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrew SHooner",
+      "email": "andrew.shooner@Uky.edu"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
