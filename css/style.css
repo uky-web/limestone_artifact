@@ -76,8 +76,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-465668319.eot");
-  src: url("../fonts/icons-465668319.eot?#iefix") format("eot"), url("../fonts/icons-465668319.woff2") format("woff2"), url("../fonts/icons-465668319.woff") format("woff"), url("../fonts/icons-465668319.ttf") format("truetype"), url("../fonts/icons-465668319.svg#icons-465668319") format("svg");
+  src: url("../fonts/icons-249676849.eot");
+  src: url("../fonts/icons-249676849.eot?#iefix") format("eot"), url("../fonts/icons-249676849.woff2") format("woff2"), url("../fonts/icons-249676849.woff") format("woff"), url("../fonts/icons-249676849.ttf") format("truetype"), url("../fonts/icons-249676849.svg#icons-249676849") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -14823,7 +14823,8 @@ figure {
     .global-header .slab.global-header__masthead {
       padding: 1.5rem 1rem 0.5rem; }
     .global-header .slab.global-header__nav-bar {
-      display: block; }
+      display: block;
+      position: relative; }
     .global-header .slab.mobile-nav {
       display: none; }
     .global-header .slab.global-header__nav-bar .slab__wrapper {
@@ -14919,62 +14920,74 @@ figure {
 .mobile-tab-nav--wildcat .mobile-tab-nav__universal {
   padding-top: 0; }
 
-.mega-menu {
-  position: relative; }
-  .mega-menu .mega-menu-nav-item {
-    cursor: pointer; }
-  .mega-menu .mega-menu__slab {
-    background-color: #1f2c5e;
-    position: relative;
-    overflow: hidden;
-    top: 0;
-    width: 100%; }
-    .mega-menu .mega-menu__slab:not(.open) {
-      max-height: 0px;
-      left: -9999px; }
-    .mega-menu .mega-menu__slab.open {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      max-height: -webkit-fit-content;
-      max-height: -moz-fit-content;
-      max-height: fit-content;
-      padding: 0.5rem; }
-    .mega-menu .mega-menu__slab .mega-menu__description,
-    .mega-menu .mega-menu__slab .mega-menu__submenus {
-      -webkit-box-flex: 1;
-          -ms-flex: 1 0 100%;
-              flex: 1 0 100%;
-      padding: 0.5rem; }
-    .mega-menu .mega-menu__slab .mega-menu__submenus a {
-      font-size: 1rem;
-      line-height: 1.5rem;
-      padding-bottom: 0.5rem; }
-      @media screen and (min-width: 76rem) {
-        .mega-menu .mega-menu__slab .mega-menu__submenus a {
-          font-size: 1rem;
-          line-height: 1.5rem; } }
-  @media screen and (min-width: 58rem) {
-    .mega-menu .mega-menu__slab {
-      background-color: #0033a0;
-      left: 0;
-      position: absolute;
-      top: 60px;
-      width: 100vw;
-      z-index: 100; }
-      .mega-menu .mega-menu__slab.open {
-        padding: 1.5rem; }
-      .mega-menu .mega-menu__slab .mega-menu__description,
-      .mega-menu .mega-menu__slab .mega-menu__submenus {
+.mega-menu .mega-menu__nav-item {
+  cursor: pointer; }
+
+.mega-menu .mega-menu__slab {
+  background-color: #1f2c5e;
+  overflow: hidden;
+  top: 0;
+  width: 100%; }
+  .mega-menu .mega-menu__slab:not(.open) {
+    max-height: 0px;
+    left: -9999px; }
+  .mega-menu .mega-menu__slab.open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    padding: 0 0.5rem 0.5rem; }
+  .mega-menu .mega-menu__slab .mega-menu__description,
+  .mega-menu .mega-menu__slab .mega-menu__submenus {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%; }
+  .mega-menu .mega-menu__slab .mega-menu__description {
+    display: none; }
+  .mega-menu .mega-menu__slab .mega-menu__submenus a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 0.5rem; }
+    @media screen and (min-width: 76rem) {
+      .mega-menu .mega-menu__slab .mega-menu__submenus a {
         font-size: 1rem;
         line-height: 1.5rem; } }
+
+@media screen and (min-width: 58rem) {
+  .mega-menu .mega-menu__slab {
+    background-color: #0033a0;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100vw;
+    z-index: 100; }
+    .mega-menu .mega-menu__slab.open {
+      padding: 0 1.5rem 1.5rem; }
+    .mega-menu .mega-menu__slab .mega-menu__description,
+    .mega-menu .mega-menu__slab .mega-menu__submenus {
+      font-size: 1rem;
+      line-height: 1.5rem; } }
     @media screen and (min-width: 58rem) and (min-width: 76rem) {
       .mega-menu .mega-menu__slab .mega-menu__description,
       .mega-menu .mega-menu__slab .mega-menu__submenus {
         font-size: 1rem;
         line-height: 1.5rem; } }
+
+@media screen and (min-width: 58rem) {
+    .mega-menu .mega-menu__slab .mega-menu__description {
+      display: block; } }
+
+.mega-menu.mega-menu--mobile.open .mega-menu__level_1 {
+  display: none; }
+
+.mega-menu .mega-menu__mobile-slab {
+  display: none; }
+  .mega-menu .mega-menu__mobile-slab.open {
+    display: block; }
 
 .global-footer {
   color: #fff;
