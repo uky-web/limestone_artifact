@@ -9,6 +9,7 @@ var apax_megamenu = function apax_megamenu() {
             if ($slabEl.hasClass('open')) {
                 $slabEl.removeClass('open');
             } else {
+                $(this).parents('.mega-menu').children('.mega-menu__slab').removeClass('open');
                 $slabEl.addClass('open');
             }
         });
