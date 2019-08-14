@@ -1,4 +1,4 @@
-@import url("https://cloud.typography.com/7932236/6118192/css/fonts.css");
+@import url("//cloud.typography.com/7932236/6161612/css/fonts.css");
 @font-face {
   font-family: 'AvenirNextLT';
   font-style: normal;
@@ -56,13 +56,13 @@
   src: url("../fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("../fonts/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("../fonts/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("../fonts/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("../fonts/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
 
 body {
-  font-family: "AvenirNextLTW01-Regular", sans-serif; }
+  font-family: "AvenirNextLT", sans-serif; }
 
 .font-mercury {
   font-family: "Mercury Display A", "Mercury Display B", serif; }
 
 .font-avenirnext {
-  font-family: "AvenirNextLTW01-Regular", sans-serif; }
+  font-family: "AvenirNextLT", sans-serif; }
 
 #sg-patterns {
   max-width: 100%; }
