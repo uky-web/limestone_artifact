@@ -65,6 +65,20 @@
   src: url("../fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix");
   src: url("../fonts/ac2d4349-4327-448f-9887-083a6a227a52.eot?#iefix") format("eot"), url("../fonts/eaafcb26-9296-4a57-83e4-4243abc03db7.woff2") format("woff2"), url("../fonts/25e83bf5-47e3-4da7-98b1-755efffb0089.woff") format("woff"), url("../fonts/4112ec87-6ded-438b-83cf-aaff98f7e987.ttf") format("truetype"), url("../fonts/ab1835cb-df6f-4d8d-b8ee-3075f5ba758d.svg#ab1835cb-df6f-4d8d-b8ee-3075f5ba758d") format("svg"); }
 
+@font-face {
+  font-family: "TradeGothicCond";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/bfb75240-a1a5-48e9-a762-7783ab69fe01.eot?#iefix");
+  src: url("../fonts/bfb75240-a1a5-48e9-a762-7783ab69fe01.eot?#iefix") format("eot"), url("../fonts/ee3d290f-f853-4ff3-913e-7bae693a43ec.woff2") format("woff2"), url("../fonts/13f010e4-8178-40a5-a790-11a6532a964c.woff") format("woff"), url("../fonts/bbf9164f-cec8-4c93-bf8d-94be44354842.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "TradeGothicCond";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/227de6ba-fef9-435d-8693-a53a76aa1add.eot?#iefix");
+  src: url("../fonts/227de6ba-fef9-435d-8693-a53a76aa1add.eot?#iefix") format("eot"), url("../fonts/dae937ec-159f-4710-9b2d-9470e24807ba.woff2") format("woff2"), url("../fonts/c8856bf2-4d23-4e30-9fb1-eede15b787b6.woff") format("woff"), url("../fonts/376f433f-1486-4168-932f-06352c8291f8.ttf") format("truetype"); }
+
 body {
   font-family: "AvenirNextLT", sans-serif; }
 
@@ -76,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-224965722.eot");
-  src: url("../fonts/icons-224965722.eot?#iefix") format("eot"), url("../fonts/icons-224965722.woff2") format("woff2"), url("../fonts/icons-224965722.woff") format("woff"), url("../fonts/icons-224965722.ttf") format("truetype"), url("../fonts/icons-224965722.svg#icons-224965722") format("svg");
+  src: url("../fonts/icons-101559457.eot");
+  src: url("../fonts/icons-101559457.eot?#iefix") format("eot"), url("../fonts/icons-101559457.woff2") format("woff2"), url("../fonts/icons-101559457.woff") format("woff"), url("../fonts/icons-101559457.ttf") format("truetype"), url("../fonts/icons-101559457.svg#icons-101559457") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -250,16 +264,16 @@ body {
     content: "#fff"; }
 
 .bg-bluegrass {
-  background-color: #1E8AFF; }
+  background-color: #0071eb; }
   .bg-bluegrass::before {
     display: inline-block;
     padding: .5em;
     border-radius: 0 0 4px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     font-size: 12px;
     font-weight: bold;
-    content: "#1E8AFF"; }
+    content: "#0071eb"; }
 
 .bg-sky {
   background-color: #B1C9E8; }
@@ -1243,8 +1257,8 @@ body {
     body button:hover,
     body a.button:hover,
     body input.button:hover {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
     body button:active, body button[aria-pressed='true'],
     body a.button:active,
@@ -1271,7 +1285,7 @@ body {
     body button:focus,
     body a.button:focus,
     body input.button:focus {
-      border-color: #1E8AFF;
+      border-color: #0071eb;
       outline: none;
       background-color: #fff;
       color: #0033a0; }
@@ -1300,7 +1314,7 @@ body {
     background-color: transparent;
     color: #000000; }
     body .slick-dots li button::before {
-      color: #1E8AFF; }
+      color: #0071eb; }
   body .slick-dots li.slick-active button::before {
     color: #000000; }
   body .statistic .editorial::before {
@@ -1309,11 +1323,11 @@ body {
     color: #0033a0; }
   body .statistic .headline-group .headline-group__super,
   body .statistic .headline-group .headline-group__sub {
-    color: #1E8AFF; }
+    color: #0071eb; }
   body .pullquote__attribution::before {
     background-color: #0033a0; }
   body .pullquote__attribution .pullquote__first-line {
-    color: #1E8AFF; }
+    color: #0071eb; }
   body .search-control {
     background-color: transparent;
     color: #000000; }
@@ -1336,7 +1350,7 @@ body {
   body .social-media-links a:link, body .social-media-links a:visited {
     color: #0033a0; }
   body .social-media-links a:hover, body .social-media-links a:active {
-    color: #1E8AFF; }
+    color: #0071eb; }
   body form input[type='text'],
   body form input[type='password'],
   body form input[type='color'],
@@ -1433,8 +1447,8 @@ body {
     .default-colors button:hover,
     .default-colors a.button:hover,
     .default-colors input.button:hover {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
     .default-colors button:active, .default-colors button[aria-pressed='true'],
     .default-colors a.button:active,
@@ -1461,7 +1475,7 @@ body {
     .default-colors button:focus,
     .default-colors a.button:focus,
     .default-colors input.button:focus {
-      border-color: #1E8AFF;
+      border-color: #0071eb;
       outline: none;
       background-color: #fff;
       color: #0033a0; }
@@ -1490,7 +1504,7 @@ body {
     background-color: transparent;
     color: #000000; }
     .default-colors .slick-dots li button::before {
-      color: #1E8AFF; }
+      color: #0071eb; }
   .default-colors .slick-dots li.slick-active button::before {
     color: #000000; }
   .default-colors .statistic .editorial::before {
@@ -1499,11 +1513,11 @@ body {
     color: #0033a0; }
   .default-colors .statistic .headline-group .headline-group__super,
   .default-colors .statistic .headline-group .headline-group__sub {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .default-colors .pullquote__attribution::before {
     background-color: #0033a0; }
   .default-colors .pullquote__attribution .pullquote__first-line {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .default-colors .search-control {
     background-color: transparent;
     color: #000000; }
@@ -1526,7 +1540,7 @@ body {
   .default-colors .social-media-links a:link, .default-colors .social-media-links a:visited {
     color: #0033a0; }
   .default-colors .social-media-links a:hover, .default-colors .social-media-links a:active {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .default-colors form input[type='text'],
   .default-colors form input[type='password'],
   .default-colors form input[type='color'],
@@ -1616,8 +1630,8 @@ body {
     .dark-colors button:hover,
     .dark-colors a.button:hover,
     .dark-colors input.button:hover {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
     .dark-colors button:active, .dark-colors button[aria-pressed='true'],
     .dark-colors a.button:active,
@@ -1644,7 +1658,7 @@ body {
     .dark-colors button:focus,
     .dark-colors a.button:focus,
     .dark-colors input.button:focus {
-      border-color: #1E8AFF;
+      border-color: #0071eb;
       outline: none;
       background-color: #fff;
       color: #0033a0; }
@@ -1673,7 +1687,7 @@ body {
     background-color: transparent;
     color: #000000; }
     .dark-colors .slick-dots li button::before {
-      color: #1E8AFF; }
+      color: #0071eb; }
   .dark-colors .slick-dots li.slick-active button::before {
     color: #000000; }
   .dark-colors .statistic .editorial::before {
@@ -1682,11 +1696,11 @@ body {
     color: #0033a0; }
   .dark-colors .statistic .headline-group .headline-group__super,
   .dark-colors .statistic .headline-group .headline-group__sub {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .dark-colors .pullquote__attribution::before {
     background-color: #0033a0; }
   .dark-colors .pullquote__attribution .pullquote__first-line {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .dark-colors .search-control {
     background-color: transparent;
     color: #000000; }
@@ -1709,7 +1723,7 @@ body {
   .dark-colors .social-media-links a:link, .dark-colors .social-media-links a:visited {
     color: #0033a0; }
   .dark-colors .social-media-links a:hover, .dark-colors .social-media-links a:active {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .dark-colors form input[type='text'],
   .dark-colors form input[type='password'],
   .dark-colors form input[type='color'],
@@ -2074,7 +2088,9 @@ h6 {
   font-family: sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "AvenirNextLT", sans-serif;
+  font-weight: bold; }
   @media screen and (min-width: 76rem) {
     .editorial h2,
     .editorial h2.headline-group .headline-group__head {
@@ -2091,7 +2107,9 @@ h6 {
   font-family: sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "AvenirNextLT", sans-serif;
+  font-weight: bold; }
   @media screen and (min-width: 76rem) {
     .editorial h3,
     .editorial h3.headline-group .headline-group__head {
@@ -2108,7 +2126,9 @@ h6 {
   font-family: sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "AvenirNextLT", sans-serif;
+  font-weight: bold; }
   @media screen and (min-width: 76rem) {
     .editorial h4,
     .editorial h4.headline-group .headline-group__head {
@@ -2126,7 +2146,9 @@ h6 {
   font-weight: normal;
   font-style: italic;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "AvenirNextLT", sans-serif;
+  font-weight: bold; }
   @media screen and (min-width: 76rem) {
     .editorial h5,
     .editorial h5.headline-group .headline-group__head {
@@ -2143,7 +2165,9 @@ h6 {
   font-family: sans-serif;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "AvenirNextLT", sans-serif;
+  font-weight: bold; }
   @media screen and (min-width: 76rem) {
     .editorial h6,
     .editorial h6.headline-group .headline-group__head {
@@ -2232,26 +2256,26 @@ h6 {
   .formatted-text--dark button,
   .formatted-text--dark a.button,
   .formatted-text--dark input.button {
-    border-color: #1E8AFF;
-    background-color: #1E8AFF;
+    border-color: #0071eb;
+    background-color: #0071eb;
     color: #fff; }
     .formatted-text--dark button:link,
     .formatted-text--dark a.button:link,
     .formatted-text--dark input.button:link {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
     .formatted-text--dark button.button--ghost,
     .formatted-text--dark a.button.button--ghost,
     .formatted-text--dark input.button.button--ghost {
       background-color: transparent;
-      color: #1E8AFF; }
+      color: #0071eb; }
     .formatted-text--dark button.button--transparent,
     .formatted-text--dark a.button.button--transparent,
     .formatted-text--dark input.button.button--transparent {
       border-color: transparent;
       background-color: transparent;
-      color: #1E8AFF; }
+      color: #0071eb; }
     .formatted-text--dark button[disabled],
     .formatted-text--dark a.button[disabled],
     .formatted-text--dark input.button[disabled] {
@@ -2357,7 +2381,7 @@ h6 {
   .formatted-text--dark .contact-table td {
     border-color: rgba(255, 255, 255, 0.3); }
   .formatted-text--dark .social-media-links a:link, .formatted-text--dark .social-media-links a:visited {
-    color: #1E8AFF; }
+    color: #0071eb; }
   .formatted-text--dark .social-media-links a:hover, .formatted-text--dark .social-media-links a:active {
     color: #fff; }
   .formatted-text--dark form input[type='text'],
@@ -2511,8 +2535,8 @@ input.button {
     input.button .button--wildcat-blue button,
     input.button .button--wildcat-blue a.button,
     input.button .button--wildcat-blue input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--wildcat-blue button:link,
       button .button--wildcat-blue a.button:link,
@@ -2523,8 +2547,8 @@ input.button {
       input.button .button--wildcat-blue button:link,
       input.button .button--wildcat-blue a.button:link,
       input.button .button--wildcat-blue input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--wildcat-blue button.button--ghost,
       button .button--wildcat-blue a.button.button--ghost,
@@ -2536,7 +2560,7 @@ input.button {
       input.button .button--wildcat-blue a.button.button--ghost,
       input.button .button--wildcat-blue input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--wildcat-blue button.button--transparent,
       button .button--wildcat-blue a.button.button--transparent,
       button .button--wildcat-blue input.button.button--transparent,
@@ -2548,7 +2572,7 @@ input.button {
       input.button .button--wildcat-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--wildcat-blue button[disabled],
       button .button--wildcat-blue a.button[disabled],
       button .button--wildcat-blue input.button[disabled],
@@ -2782,7 +2806,7 @@ input.button {
     a.button .button--wildcat-blue .social-media-links a:visited,
     input.button .button--wildcat-blue .social-media-links a:link,
     input.button .button--wildcat-blue .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--wildcat-blue .social-media-links a:hover, button .button--wildcat-blue .social-media-links a:active,
     a.button .button--wildcat-blue .social-media-links a:hover,
     a.button .button--wildcat-blue .social-media-links a:active,
@@ -2850,11 +2874,416 @@ input.button {
   button .button--bluegrass,
   a.button .button--bluegrass,
   input.button .button--bluegrass {
-    background-color: #1E8AFF; }
+    background-color: #0071eb;
+    color: #fff; }
+    button .button--bluegrass .cite-media .icon-label,
+    a.button .button--bluegrass .cite-media .icon-label,
+    input.button .button--bluegrass .cite-media .icon-label {
+      color: #fff; }
+    button .button--bluegrass .image-with-caption__media,
+    a.button .button--bluegrass .image-with-caption__media,
+    input.button .button--bluegrass .image-with-caption__media {
+      background-color: #000000; }
+    button .button--bluegrass .icon-label--stacked .label,
+    a.button .button--bluegrass .icon-label--stacked .label,
+    input.button .button--bluegrass .icon-label--stacked .label {
+      color: #fff; }
+    button .button--bluegrass a:link, button .button--bluegrass a:visited,
+    a.button .button--bluegrass a:link,
+    a.button .button--bluegrass a:visited,
+    input.button .button--bluegrass a:link,
+    input.button .button--bluegrass a:visited {
+      color: #fff; }
+    button .button--bluegrass a:hover, button .button--bluegrass a:active,
+    a.button .button--bluegrass a:hover,
+    a.button .button--bluegrass a:active,
+    input.button .button--bluegrass a:hover,
+    input.button .button--bluegrass a:active {
+      color: #B1C9E8; }
+    button .button--bluegrass .carousel figcaption a,
+    a.button .button--bluegrass .carousel figcaption a,
+    input.button .button--bluegrass .carousel figcaption a {
+      background-attachment: scroll;
+      background-image: linear-gradient(to top, rgba(177, 201, 232, 0.6) 0, rgba(177, 201, 232, 0.6) 0.5em, transparent 0.5em, transparent 110%), linear-gradient(to top, rgba(255, 255, 255, 0.6) 0, rgba(255, 255, 255, 0.6) 1px, transparent 1px, transparent 100%);
+      background-repeat: no-repeat;
+      background-position: 0 .5em, 0 0;
+      position: relative;
+      -webkit-transition: .2s background-position ease-out;
+      transition: .2s background-position ease-out;
+      font-weight: 500;
+      text-decoration: none;
+      z-index: 1; }
+      button .button--bluegrass .carousel figcaption a:link, button .button--bluegrass .carousel figcaption a:visited,
+      a.button .button--bluegrass .carousel figcaption a:link,
+      a.button .button--bluegrass .carousel figcaption a:visited,
+      input.button .button--bluegrass .carousel figcaption a:link,
+      input.button .button--bluegrass .carousel figcaption a:visited {
+        color: #000000; }
+      button .button--bluegrass .carousel figcaption a:hover, button .button--bluegrass .carousel figcaption a:active,
+      a.button .button--bluegrass .carousel figcaption a:hover,
+      a.button .button--bluegrass .carousel figcaption a:active,
+      input.button .button--bluegrass .carousel figcaption a:hover,
+      input.button .button--bluegrass .carousel figcaption a:active {
+        color: #0033a0; }
+      button .button--bluegrass .carousel figcaption a.link--fancy,
+      a.button .button--bluegrass .carousel figcaption a.link--fancy,
+      input.button .button--bluegrass .carousel figcaption a.link--fancy {
+        background-image: none; }
+      button .button--bluegrass .carousel figcaption a:active, button .button--bluegrass .carousel figcaption a:hover,
+      a.button .button--bluegrass .carousel figcaption a:active,
+      a.button .button--bluegrass .carousel figcaption a:hover,
+      input.button .button--bluegrass .carousel figcaption a:active,
+      input.button .button--bluegrass .carousel figcaption a:hover {
+        background-position: 0 0, 1000px 1px; }
+      button .button--bluegrass .carousel figcaption a:link, button .button--bluegrass .carousel figcaption a:visited,
+      a.button .button--bluegrass .carousel figcaption a:link,
+      a.button .button--bluegrass .carousel figcaption a:visited,
+      input.button .button--bluegrass .carousel figcaption a:link,
+      input.button .button--bluegrass .carousel figcaption a:visited {
+        color: #fff; }
+      button .button--bluegrass .carousel figcaption a:hover, button .button--bluegrass .carousel figcaption a:active,
+      a.button .button--bluegrass .carousel figcaption a:hover,
+      a.button .button--bluegrass .carousel figcaption a:active,
+      input.button .button--bluegrass .carousel figcaption a:hover,
+      input.button .button--bluegrass .carousel figcaption a:active {
+        color: #fff; }
+    button .button--bluegrass button,
+    button .button--bluegrass a.button,
+    button .button--bluegrass input.button,
+    a.button .button--bluegrass button,
+    a.button .button--bluegrass a.button,
+    a.button .button--bluegrass input.button,
+    input.button .button--bluegrass button,
+    input.button .button--bluegrass a.button,
+    input.button .button--bluegrass input.button {
+      border-color: #0071eb;
+      background-color: #0071eb;
+      color: #fff; }
+      button .button--bluegrass button:link,
+      button .button--bluegrass a.button:link,
+      button .button--bluegrass input.button:link,
+      a.button .button--bluegrass button:link,
+      a.button .button--bluegrass a.button:link,
+      a.button .button--bluegrass input.button:link,
+      input.button .button--bluegrass button:link,
+      input.button .button--bluegrass a.button:link,
+      input.button .button--bluegrass input.button:link {
+        border-color: #0071eb;
+        background-color: #0071eb;
+        color: #fff; }
+      button .button--bluegrass button.button--ghost,
+      button .button--bluegrass a.button.button--ghost,
+      button .button--bluegrass input.button.button--ghost,
+      a.button .button--bluegrass button.button--ghost,
+      a.button .button--bluegrass a.button.button--ghost,
+      a.button .button--bluegrass input.button.button--ghost,
+      input.button .button--bluegrass button.button--ghost,
+      input.button .button--bluegrass a.button.button--ghost,
+      input.button .button--bluegrass input.button.button--ghost {
+        background-color: transparent;
+        color: #0071eb; }
+      button .button--bluegrass button.button--transparent,
+      button .button--bluegrass a.button.button--transparent,
+      button .button--bluegrass input.button.button--transparent,
+      a.button .button--bluegrass button.button--transparent,
+      a.button .button--bluegrass a.button.button--transparent,
+      a.button .button--bluegrass input.button.button--transparent,
+      input.button .button--bluegrass button.button--transparent,
+      input.button .button--bluegrass a.button.button--transparent,
+      input.button .button--bluegrass input.button.button--transparent {
+        border-color: transparent;
+        background-color: transparent;
+        color: #0071eb; }
+      button .button--bluegrass button[disabled],
+      button .button--bluegrass a.button[disabled],
+      button .button--bluegrass input.button[disabled],
+      a.button .button--bluegrass button[disabled],
+      a.button .button--bluegrass a.button[disabled],
+      a.button .button--bluegrass input.button[disabled],
+      input.button .button--bluegrass button[disabled],
+      input.button .button--bluegrass a.button[disabled],
+      input.button .button--bluegrass input.button[disabled] {
+        border-color: rgba(237, 237, 237, 0.66) !important;
+        background-color: rgba(237, 237, 237, 0.66) !important;
+        color: #0033a0 !important; }
+        button .button--bluegrass button[disabled].button--ghost,
+        button .button--bluegrass a.button[disabled].button--ghost,
+        button .button--bluegrass input.button[disabled].button--ghost,
+        a.button .button--bluegrass button[disabled].button--ghost,
+        a.button .button--bluegrass a.button[disabled].button--ghost,
+        a.button .button--bluegrass input.button[disabled].button--ghost,
+        input.button .button--bluegrass button[disabled].button--ghost,
+        input.button .button--bluegrass a.button[disabled].button--ghost,
+        input.button .button--bluegrass input.button[disabled].button--ghost {
+          background-color: transparent !important;
+          color: #fff !important; }
+      button .button--bluegrass button:hover,
+      button .button--bluegrass a.button:hover,
+      button .button--bluegrass input.button:hover,
+      a.button .button--bluegrass button:hover,
+      a.button .button--bluegrass a.button:hover,
+      a.button .button--bluegrass input.button:hover,
+      input.button .button--bluegrass button:hover,
+      input.button .button--bluegrass a.button:hover,
+      input.button .button--bluegrass input.button:hover {
+        border-color: #fff;
+        background-color: #fff;
+        color: #0033a0; }
+      button .button--bluegrass button:active, button .button--bluegrass button[aria-pressed='true'],
+      button .button--bluegrass a.button:active,
+      button .button--bluegrass a.button[aria-pressed='true'],
+      button .button--bluegrass input.button:active,
+      button .button--bluegrass input.button[aria-pressed='true'],
+      a.button .button--bluegrass button:active,
+      a.button .button--bluegrass button[aria-pressed='true'],
+      a.button .button--bluegrass a.button:active,
+      a.button .button--bluegrass a.button[aria-pressed='true'],
+      a.button .button--bluegrass input.button:active,
+      a.button .button--bluegrass input.button[aria-pressed='true'],
+      input.button .button--bluegrass button:active,
+      input.button .button--bluegrass button[aria-pressed='true'],
+      input.button .button--bluegrass a.button:active,
+      input.button .button--bluegrass a.button[aria-pressed='true'],
+      input.button .button--bluegrass input.button:active,
+      input.button .button--bluegrass input.button[aria-pressed='true'] {
+        border-color: #1f2c5e;
+        background-color: #DCDDDE;
+        color: #0033a0; }
+        button .button--bluegrass button:active.button--ghost, button .button--bluegrass button[aria-pressed='true'].button--ghost,
+        button .button--bluegrass a.button:active.button--ghost,
+        button .button--bluegrass a.button[aria-pressed='true'].button--ghost,
+        button .button--bluegrass input.button:active.button--ghost,
+        button .button--bluegrass input.button[aria-pressed='true'].button--ghost,
+        a.button .button--bluegrass button:active.button--ghost,
+        a.button .button--bluegrass button[aria-pressed='true'].button--ghost,
+        a.button .button--bluegrass a.button:active.button--ghost,
+        a.button .button--bluegrass a.button[aria-pressed='true'].button--ghost,
+        a.button .button--bluegrass input.button:active.button--ghost,
+        a.button .button--bluegrass input.button[aria-pressed='true'].button--ghost,
+        input.button .button--bluegrass button:active.button--ghost,
+        input.button .button--bluegrass button[aria-pressed='true'].button--ghost,
+        input.button .button--bluegrass a.button:active.button--ghost,
+        input.button .button--bluegrass a.button[aria-pressed='true'].button--ghost,
+        input.button .button--bluegrass input.button:active.button--ghost,
+        input.button .button--bluegrass input.button[aria-pressed='true'].button--ghost {
+          color: #0033a0; }
+        button .button--bluegrass button:active.button--transparent, button .button--bluegrass button[aria-pressed='true'].button--transparent,
+        button .button--bluegrass a.button:active.button--transparent,
+        button .button--bluegrass a.button[aria-pressed='true'].button--transparent,
+        button .button--bluegrass input.button:active.button--transparent,
+        button .button--bluegrass input.button[aria-pressed='true'].button--transparent,
+        a.button .button--bluegrass button:active.button--transparent,
+        a.button .button--bluegrass button[aria-pressed='true'].button--transparent,
+        a.button .button--bluegrass a.button:active.button--transparent,
+        a.button .button--bluegrass a.button[aria-pressed='true'].button--transparent,
+        a.button .button--bluegrass input.button:active.button--transparent,
+        a.button .button--bluegrass input.button[aria-pressed='true'].button--transparent,
+        input.button .button--bluegrass button:active.button--transparent,
+        input.button .button--bluegrass button[aria-pressed='true'].button--transparent,
+        input.button .button--bluegrass a.button:active.button--transparent,
+        input.button .button--bluegrass a.button[aria-pressed='true'].button--transparent,
+        input.button .button--bluegrass input.button:active.button--transparent,
+        input.button .button--bluegrass input.button[aria-pressed='true'].button--transparent {
+          border-color: transparent;
+          background-color: transparent;
+          color: #1f2c5e; }
+      button .button--bluegrass button:focus,
+      button .button--bluegrass a.button:focus,
+      button .button--bluegrass input.button:focus,
+      a.button .button--bluegrass button:focus,
+      a.button .button--bluegrass a.button:focus,
+      a.button .button--bluegrass input.button:focus,
+      input.button .button--bluegrass button:focus,
+      input.button .button--bluegrass a.button:focus,
+      input.button .button--bluegrass input.button:focus {
+        border-color: #fff;
+        outline: none;
+        background-color: #DCDDDE;
+        color: #0033a0; }
+        button .button--bluegrass button:focus.button--ghost,
+        button .button--bluegrass a.button:focus.button--ghost,
+        button .button--bluegrass input.button:focus.button--ghost,
+        a.button .button--bluegrass button:focus.button--ghost,
+        a.button .button--bluegrass a.button:focus.button--ghost,
+        a.button .button--bluegrass input.button:focus.button--ghost,
+        input.button .button--bluegrass button:focus.button--ghost,
+        input.button .button--bluegrass a.button:focus.button--ghost,
+        input.button .button--bluegrass input.button:focus.button--ghost {
+          background-color: transparent;
+          color: #fff; }
+    button .button--bluegrass .headline-group .headline-group__super,
+    a.button .button--bluegrass .headline-group .headline-group__super,
+    input.button .button--bluegrass .headline-group .headline-group__super {
+      color: #DCDDDE; }
+    button .button--bluegrass .headline-group .headline-group__sub,
+    a.button .button--bluegrass .headline-group .headline-group__sub,
+    input.button .button--bluegrass .headline-group .headline-group__sub {
+      color: #DCDDDE; }
+    button .button--bluegrass .slick-prev,
+    button .button--bluegrass .slick-next,
+    a.button .button--bluegrass .slick-prev,
+    a.button .button--bluegrass .slick-next,
+    input.button .button--bluegrass .slick-prev,
+    input.button .button--bluegrass .slick-next {
+      background-color: #515664;
+      color: #fff; }
+      button .button--bluegrass .slick-prev:hover, button .button--bluegrass .slick-prev:focus,
+      button .button--bluegrass .slick-next:hover,
+      button .button--bluegrass .slick-next:focus,
+      a.button .button--bluegrass .slick-prev:hover,
+      a.button .button--bluegrass .slick-prev:focus,
+      a.button .button--bluegrass .slick-next:hover,
+      a.button .button--bluegrass .slick-next:focus,
+      input.button .button--bluegrass .slick-prev:hover,
+      input.button .button--bluegrass .slick-prev:focus,
+      input.button .button--bluegrass .slick-next:hover,
+      input.button .button--bluegrass .slick-next:focus {
+        background-color: #515664;
+        color: #fff; }
+      button .button--bluegrass .slick-prev::before,
+      button .button--bluegrass .slick-next::before,
+      a.button .button--bluegrass .slick-prev::before,
+      a.button .button--bluegrass .slick-next::before,
+      input.button .button--bluegrass .slick-prev::before,
+      input.button .button--bluegrass .slick-next::before {
+        color: #fff; }
+    button .button--bluegrass .slick-dots li button,
+    a.button .button--bluegrass .slick-dots li button,
+    input.button .button--bluegrass .slick-dots li button {
+      background-color: transparent;
+      color: #000000; }
+      button .button--bluegrass .slick-dots li button::before,
+      a.button .button--bluegrass .slick-dots li button::before,
+      input.button .button--bluegrass .slick-dots li button::before {
+        color: #ebebeb; }
+    button .button--bluegrass .slick-dots li.slick-active button::before,
+    a.button .button--bluegrass .slick-dots li.slick-active button::before,
+    input.button .button--bluegrass .slick-dots li.slick-active button::before {
+      color: #B1C9E8; }
+    button .button--bluegrass .statistic .editorial::before,
+    a.button .button--bluegrass .statistic .editorial::before,
+    input.button .button--bluegrass .statistic .editorial::before {
+      background-color: #fff; }
+    button .button--bluegrass .statistic .headline-group .headline-group__head,
+    a.button .button--bluegrass .statistic .headline-group .headline-group__head,
+    input.button .button--bluegrass .statistic .headline-group .headline-group__head {
+      color: #fff; }
+    button .button--bluegrass .statistic .headline-group .headline-group__super,
+    button .button--bluegrass .statistic .headline-group .headline-group__sub,
+    a.button .button--bluegrass .statistic .headline-group .headline-group__super,
+    a.button .button--bluegrass .statistic .headline-group .headline-group__sub,
+    input.button .button--bluegrass .statistic .headline-group .headline-group__super,
+    input.button .button--bluegrass .statistic .headline-group .headline-group__sub {
+      color: #B1C9E8; }
+    button .button--bluegrass .pullquote__attribution::before,
+    a.button .button--bluegrass .pullquote__attribution::before,
+    input.button .button--bluegrass .pullquote__attribution::before {
+      background-color: #fff; }
+    button .button--bluegrass .pullquote__attribution .pullquote__first-line,
+    a.button .button--bluegrass .pullquote__attribution .pullquote__first-line,
+    input.button .button--bluegrass .pullquote__attribution .pullquote__first-line {
+      color: #B1C9E8; }
+    button .button--bluegrass .search-control,
+    a.button .button--bluegrass .search-control,
+    input.button .button--bluegrass .search-control {
+      background-color: transparent;
+      color: #fff; }
+      button .button--bluegrass .search-control:hover, button .button--bluegrass .search-control:active,
+      a.button .button--bluegrass .search-control:hover,
+      a.button .button--bluegrass .search-control:active,
+      input.button .button--bluegrass .search-control:hover,
+      input.button .button--bluegrass .search-control:active {
+        background-color: transparent;
+        color: #B1C9E8; }
+    button .button--bluegrass .menu-button,
+    a.button .button--bluegrass .menu-button,
+    input.button .button--bluegrass .menu-button {
+      background-color: transparent;
+      color: #aaa; }
+      button .button--bluegrass .menu-button:hover, button .button--bluegrass .menu-button:active,
+      a.button .button--bluegrass .menu-button:hover,
+      a.button .button--bluegrass .menu-button:active,
+      input.button .button--bluegrass .menu-button:hover,
+      input.button .button--bluegrass .menu-button:active {
+        background-color: transparent;
+        color: #aaa; }
+    button .button--bluegrass .uky-logo-main .uky-logo-main__logo,
+    a.button .button--bluegrass .uky-logo-main .uky-logo-main__logo,
+    input.button .button--bluegrass .uky-logo-main .uky-logo-main__logo {
+      fill: #fff; }
+    button .button--bluegrass .uky-logo-main .uky-logo-main__wordmark,
+    a.button .button--bluegrass .uky-logo-main .uky-logo-main__wordmark,
+    input.button .button--bluegrass .uky-logo-main .uky-logo-main__wordmark {
+      fill: #fff; }
+    button .button--bluegrass .contact-table th,
+    button .button--bluegrass .contact-table td,
+    a.button .button--bluegrass .contact-table th,
+    a.button .button--bluegrass .contact-table td,
+    input.button .button--bluegrass .contact-table th,
+    input.button .button--bluegrass .contact-table td {
+      border-color: rgba(255, 255, 255, 0.3); }
+    button .button--bluegrass .social-media-links a:link, button .button--bluegrass .social-media-links a:visited,
+    a.button .button--bluegrass .social-media-links a:link,
+    a.button .button--bluegrass .social-media-links a:visited,
+    input.button .button--bluegrass .social-media-links a:link,
+    input.button .button--bluegrass .social-media-links a:visited {
+      color: #0071eb; }
+    button .button--bluegrass .social-media-links a:hover, button .button--bluegrass .social-media-links a:active,
+    a.button .button--bluegrass .social-media-links a:hover,
+    a.button .button--bluegrass .social-media-links a:active,
+    input.button .button--bluegrass .social-media-links a:hover,
+    input.button .button--bluegrass .social-media-links a:active {
+      color: #fff; }
+    button .button--bluegrass form input[type='text'],
+    button .button--bluegrass form input[type='password'],
+    button .button--bluegrass form input[type='color'],
+    button .button--bluegrass form input[type='date'],
+    button .button--bluegrass form input[type='datetime'],
+    button .button--bluegrass form input[type='email'],
+    button .button--bluegrass form input[type='month'],
+    button .button--bluegrass form input[type='number'],
+    button .button--bluegrass form input[type='range'],
+    button .button--bluegrass form input[type='search'],
+    button .button--bluegrass form input[type='tel'],
+    button .button--bluegrass form input[type='time'],
+    button .button--bluegrass form input[type='url'],
+    button .button--bluegrass form input[type='week'],
+    button .button--bluegrass form textarea,
+    a.button .button--bluegrass form input[type='text'],
+    a.button .button--bluegrass form input[type='password'],
+    a.button .button--bluegrass form input[type='color'],
+    a.button .button--bluegrass form input[type='date'],
+    a.button .button--bluegrass form input[type='datetime'],
+    a.button .button--bluegrass form input[type='email'],
+    a.button .button--bluegrass form input[type='month'],
+    a.button .button--bluegrass form input[type='number'],
+    a.button .button--bluegrass form input[type='range'],
+    a.button .button--bluegrass form input[type='search'],
+    a.button .button--bluegrass form input[type='tel'],
+    a.button .button--bluegrass form input[type='time'],
+    a.button .button--bluegrass form input[type='url'],
+    a.button .button--bluegrass form input[type='week'],
+    a.button .button--bluegrass form textarea,
+    input.button .button--bluegrass form input[type='text'],
+    input.button .button--bluegrass form input[type='password'],
+    input.button .button--bluegrass form input[type='color'],
+    input.button .button--bluegrass form input[type='date'],
+    input.button .button--bluegrass form input[type='datetime'],
+    input.button .button--bluegrass form input[type='email'],
+    input.button .button--bluegrass form input[type='month'],
+    input.button .button--bluegrass form input[type='number'],
+    input.button .button--bluegrass form input[type='range'],
+    input.button .button--bluegrass form input[type='search'],
+    input.button .button--bluegrass form input[type='tel'],
+    input.button .button--bluegrass form input[type='time'],
+    input.button .button--bluegrass form input[type='url'],
+    input.button .button--bluegrass form input[type='week'],
+    input.button .button--bluegrass form textarea {
+      border-color: transparent; }
     button .button--bluegrass .heading--display span,
     a.button .button--bluegrass .heading--display span,
     input.button .button--bluegrass .heading--display span {
-      background-color: #1E8AFF; }
+      background-color: #0071eb; }
   button .button--sky,
   a.button .button--sky,
   input.button .button--sky {
@@ -2948,8 +3377,8 @@ input.button {
     input.button .button--midnight button,
     input.button .button--midnight a.button,
     input.button .button--midnight input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--midnight button:link,
       button .button--midnight a.button:link,
@@ -2960,8 +3389,8 @@ input.button {
       input.button .button--midnight button:link,
       input.button .button--midnight a.button:link,
       input.button .button--midnight input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--midnight button.button--ghost,
       button .button--midnight a.button.button--ghost,
@@ -2973,7 +3402,7 @@ input.button {
       input.button .button--midnight a.button.button--ghost,
       input.button .button--midnight input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--midnight button.button--transparent,
       button .button--midnight a.button.button--transparent,
       button .button--midnight input.button.button--transparent,
@@ -2985,7 +3414,7 @@ input.button {
       input.button .button--midnight input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--midnight button[disabled],
       button .button--midnight a.button[disabled],
       button .button--midnight input.button[disabled],
@@ -3219,7 +3648,7 @@ input.button {
     a.button .button--midnight .social-media-links a:visited,
     input.button .button--midnight .social-media-links a:link,
     input.button .button--midnight .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--midnight .social-media-links a:hover, button .button--midnight .social-media-links a:active,
     a.button .button--midnight .social-media-links a:hover,
     a.button .button--midnight .social-media-links a:active,
@@ -3417,8 +3846,8 @@ input.button {
     input.button .button--wildcat-black button,
     input.button .button--wildcat-black a.button,
     input.button .button--wildcat-black input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--wildcat-black button:link,
       button .button--wildcat-black a.button:link,
@@ -3429,8 +3858,8 @@ input.button {
       input.button .button--wildcat-black button:link,
       input.button .button--wildcat-black a.button:link,
       input.button .button--wildcat-black input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--wildcat-black button.button--ghost,
       button .button--wildcat-black a.button.button--ghost,
@@ -3442,7 +3871,7 @@ input.button {
       input.button .button--wildcat-black a.button.button--ghost,
       input.button .button--wildcat-black input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--wildcat-black button.button--transparent,
       button .button--wildcat-black a.button.button--transparent,
       button .button--wildcat-black input.button.button--transparent,
@@ -3454,7 +3883,7 @@ input.button {
       input.button .button--wildcat-black input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--wildcat-black button[disabled],
       button .button--wildcat-black a.button[disabled],
       button .button--wildcat-black input.button[disabled],
@@ -3688,7 +4117,7 @@ input.button {
     a.button .button--wildcat-black .social-media-links a:visited,
     input.button .button--wildcat-black .social-media-links a:link,
     input.button .button--wildcat-black .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--wildcat-black .social-media-links a:hover, button .button--wildcat-black .social-media-links a:active,
     a.button .button--wildcat-black .social-media-links a:hover,
     a.button .button--wildcat-black .social-media-links a:active,
@@ -3838,8 +4267,8 @@ input.button {
     input.button .button--medium-blue button,
     input.button .button--medium-blue a.button,
     input.button .button--medium-blue input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--medium-blue button:link,
       button .button--medium-blue a.button:link,
@@ -3850,8 +4279,8 @@ input.button {
       input.button .button--medium-blue button:link,
       input.button .button--medium-blue a.button:link,
       input.button .button--medium-blue input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--medium-blue button.button--ghost,
       button .button--medium-blue a.button.button--ghost,
@@ -3863,7 +4292,7 @@ input.button {
       input.button .button--medium-blue a.button.button--ghost,
       input.button .button--medium-blue input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--medium-blue button.button--transparent,
       button .button--medium-blue a.button.button--transparent,
       button .button--medium-blue input.button.button--transparent,
@@ -3875,7 +4304,7 @@ input.button {
       input.button .button--medium-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--medium-blue button[disabled],
       button .button--medium-blue a.button[disabled],
       button .button--medium-blue input.button[disabled],
@@ -4109,7 +4538,7 @@ input.button {
     a.button .button--medium-blue .social-media-links a:visited,
     input.button .button--medium-blue .social-media-links a:link,
     input.button .button--medium-blue .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--medium-blue .social-media-links a:hover, button .button--medium-blue .social-media-links a:active,
     a.button .button--medium-blue .social-media-links a:hover,
     a.button .button--medium-blue .social-media-links a:active,
@@ -4251,8 +4680,8 @@ input.button {
     input.button .button--dark-blue button,
     input.button .button--dark-blue a.button,
     input.button .button--dark-blue input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--dark-blue button:link,
       button .button--dark-blue a.button:link,
@@ -4263,8 +4692,8 @@ input.button {
       input.button .button--dark-blue button:link,
       input.button .button--dark-blue a.button:link,
       input.button .button--dark-blue input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--dark-blue button.button--ghost,
       button .button--dark-blue a.button.button--ghost,
@@ -4276,7 +4705,7 @@ input.button {
       input.button .button--dark-blue a.button.button--ghost,
       input.button .button--dark-blue input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--dark-blue button.button--transparent,
       button .button--dark-blue a.button.button--transparent,
       button .button--dark-blue input.button.button--transparent,
@@ -4288,7 +4717,7 @@ input.button {
       input.button .button--dark-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--dark-blue button[disabled],
       button .button--dark-blue a.button[disabled],
       button .button--dark-blue input.button[disabled],
@@ -4522,7 +4951,7 @@ input.button {
     a.button .button--dark-blue .social-media-links a:visited,
     input.button .button--dark-blue .social-media-links a:link,
     input.button .button--dark-blue .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--dark-blue .social-media-links a:hover, button .button--dark-blue .social-media-links a:active,
     a.button .button--dark-blue .social-media-links a:hover,
     a.button .button--dark-blue .social-media-links a:active,
@@ -4664,8 +5093,8 @@ input.button {
     input.button .button--almost-wildcat-blue button,
     input.button .button--almost-wildcat-blue a.button,
     input.button .button--almost-wildcat-blue input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--almost-wildcat-blue button:link,
       button .button--almost-wildcat-blue a.button:link,
@@ -4676,8 +5105,8 @@ input.button {
       input.button .button--almost-wildcat-blue button:link,
       input.button .button--almost-wildcat-blue a.button:link,
       input.button .button--almost-wildcat-blue input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--almost-wildcat-blue button.button--ghost,
       button .button--almost-wildcat-blue a.button.button--ghost,
@@ -4689,7 +5118,7 @@ input.button {
       input.button .button--almost-wildcat-blue a.button.button--ghost,
       input.button .button--almost-wildcat-blue input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--almost-wildcat-blue button.button--transparent,
       button .button--almost-wildcat-blue a.button.button--transparent,
       button .button--almost-wildcat-blue input.button.button--transparent,
@@ -4701,7 +5130,7 @@ input.button {
       input.button .button--almost-wildcat-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--almost-wildcat-blue button[disabled],
       button .button--almost-wildcat-blue a.button[disabled],
       button .button--almost-wildcat-blue input.button[disabled],
@@ -4935,7 +5364,7 @@ input.button {
     a.button .button--almost-wildcat-blue .social-media-links a:visited,
     input.button .button--almost-wildcat-blue .social-media-links a:link,
     input.button .button--almost-wildcat-blue .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--almost-wildcat-blue .social-media-links a:hover, button .button--almost-wildcat-blue .social-media-links a:active,
     a.button .button--almost-wildcat-blue .social-media-links a:hover,
     a.button .button--almost-wildcat-blue .social-media-links a:active,
@@ -5085,8 +5514,8 @@ input.button {
     input.button .button--light-blue-shade button,
     input.button .button--light-blue-shade a.button,
     input.button .button--light-blue-shade input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--light-blue-shade button:link,
       button .button--light-blue-shade a.button:link,
@@ -5097,8 +5526,8 @@ input.button {
       input.button .button--light-blue-shade button:link,
       input.button .button--light-blue-shade a.button:link,
       input.button .button--light-blue-shade input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--light-blue-shade button.button--ghost,
       button .button--light-blue-shade a.button.button--ghost,
@@ -5110,7 +5539,7 @@ input.button {
       input.button .button--light-blue-shade a.button.button--ghost,
       input.button .button--light-blue-shade input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--light-blue-shade button.button--transparent,
       button .button--light-blue-shade a.button.button--transparent,
       button .button--light-blue-shade input.button.button--transparent,
@@ -5122,7 +5551,7 @@ input.button {
       input.button .button--light-blue-shade input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--light-blue-shade button[disabled],
       button .button--light-blue-shade a.button[disabled],
       button .button--light-blue-shade input.button[disabled],
@@ -5356,7 +5785,7 @@ input.button {
     a.button .button--light-blue-shade .social-media-links a:visited,
     input.button .button--light-blue-shade .social-media-links a:link,
     input.button .button--light-blue-shade .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--light-blue-shade .social-media-links a:hover, button .button--light-blue-shade .social-media-links a:active,
     a.button .button--light-blue-shade .social-media-links a:hover,
     a.button .button--light-blue-shade .social-media-links a:active,
@@ -5498,8 +5927,8 @@ input.button {
     input.button .button--blue-black button,
     input.button .button--blue-black a.button,
     input.button .button--blue-black input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--blue-black button:link,
       button .button--blue-black a.button:link,
@@ -5510,8 +5939,8 @@ input.button {
       input.button .button--blue-black button:link,
       input.button .button--blue-black a.button:link,
       input.button .button--blue-black input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--blue-black button.button--ghost,
       button .button--blue-black a.button.button--ghost,
@@ -5523,7 +5952,7 @@ input.button {
       input.button .button--blue-black a.button.button--ghost,
       input.button .button--blue-black input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--blue-black button.button--transparent,
       button .button--blue-black a.button.button--transparent,
       button .button--blue-black input.button.button--transparent,
@@ -5535,7 +5964,7 @@ input.button {
       input.button .button--blue-black input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--blue-black button[disabled],
       button .button--blue-black a.button[disabled],
       button .button--blue-black input.button[disabled],
@@ -5769,7 +6198,7 @@ input.button {
     a.button .button--blue-black .social-media-links a:visited,
     input.button .button--blue-black .social-media-links a:link,
     input.button .button--blue-black .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--blue-black .social-media-links a:hover, button .button--blue-black .social-media-links a:active,
     a.button .button--blue-black .social-media-links a:hover,
     a.button .button--blue-black .social-media-links a:active,
@@ -5935,8 +6364,8 @@ input.button {
     input.button .button--dark-gray button,
     input.button .button--dark-gray a.button,
     input.button .button--dark-gray input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--dark-gray button:link,
       button .button--dark-gray a.button:link,
@@ -5947,8 +6376,8 @@ input.button {
       input.button .button--dark-gray button:link,
       input.button .button--dark-gray a.button:link,
       input.button .button--dark-gray input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--dark-gray button.button--ghost,
       button .button--dark-gray a.button.button--ghost,
@@ -5960,7 +6389,7 @@ input.button {
       input.button .button--dark-gray a.button.button--ghost,
       input.button .button--dark-gray input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--dark-gray button.button--transparent,
       button .button--dark-gray a.button.button--transparent,
       button .button--dark-gray input.button.button--transparent,
@@ -5972,7 +6401,7 @@ input.button {
       input.button .button--dark-gray input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--dark-gray button[disabled],
       button .button--dark-gray a.button[disabled],
       button .button--dark-gray input.button[disabled],
@@ -6206,7 +6635,7 @@ input.button {
     a.button .button--dark-gray .social-media-links a:visited,
     input.button .button--dark-gray .social-media-links a:link,
     input.button .button--dark-gray .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--dark-gray .social-media-links a:hover, button .button--dark-gray .social-media-links a:active,
     a.button .button--dark-gray .social-media-links a:hover,
     a.button .button--dark-gray .social-media-links a:active,
@@ -6372,8 +6801,8 @@ input.button {
     input.button .button--alert button,
     input.button .button--alert a.button,
     input.button .button--alert input.button {
-      border-color: #1E8AFF;
-      background-color: #1E8AFF;
+      border-color: #0071eb;
+      background-color: #0071eb;
       color: #fff; }
       button .button--alert button:link,
       button .button--alert a.button:link,
@@ -6384,8 +6813,8 @@ input.button {
       input.button .button--alert button:link,
       input.button .button--alert a.button:link,
       input.button .button--alert input.button:link {
-        border-color: #1E8AFF;
-        background-color: #1E8AFF;
+        border-color: #0071eb;
+        background-color: #0071eb;
         color: #fff; }
       button .button--alert button.button--ghost,
       button .button--alert a.button.button--ghost,
@@ -6397,7 +6826,7 @@ input.button {
       input.button .button--alert a.button.button--ghost,
       input.button .button--alert input.button.button--ghost {
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--alert button.button--transparent,
       button .button--alert a.button.button--transparent,
       button .button--alert input.button.button--transparent,
@@ -6409,7 +6838,7 @@ input.button {
       input.button .button--alert input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #1E8AFF; }
+        color: #0071eb; }
       button .button--alert button[disabled],
       button .button--alert a.button[disabled],
       button .button--alert input.button[disabled],
@@ -6643,7 +7072,7 @@ input.button {
     a.button .button--alert .social-media-links a:visited,
     input.button .button--alert .social-media-links a:link,
     input.button .button--alert .social-media-links a:visited {
-      color: #1E8AFF; }
+      color: #0071eb; }
     button .button--alert .social-media-links a:hover, button .button--alert .social-media-links a:active,
     a.button .button--alert .social-media-links a:hover,
     a.button .button--alert .social-media-links a:active,
