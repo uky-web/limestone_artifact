@@ -90,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-972878389.eot");
-  src: url("../fonts/icons-972878389.eot?#iefix") format("eot"), url("../fonts/icons-972878389.woff2") format("woff2"), url("../fonts/icons-972878389.woff") format("woff"), url("../fonts/icons-972878389.ttf") format("truetype"), url("../fonts/icons-972878389.svg#icons-972878389") format("svg");
+  src: url("../fonts/icons-102189592.eot");
+  src: url("../fonts/icons-102189592.eot?#iefix") format("eot"), url("../fonts/icons-102189592.woff2") format("woff2"), url("../fonts/icons-102189592.woff") format("woff"), url("../fonts/icons-102189592.ttf") format("truetype"), url("../fonts/icons-102189592.svg#icons-102189592") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1235,8 +1235,11 @@ body {
     body button.button--ghost,
     body a.button.button--ghost,
     body input.button.button--ghost {
-      background-color: transparent;
-      color: #0033a0; }
+      background-color: transparent; }
+    body button.button--bluegrass,
+    body a.button.button--bluegrass,
+    body input.button.button--bluegrass {
+      border-color: #0071eb; }
     body button.button--transparent,
     body a.button.button--transparent,
     body input.button.button--transparent {
@@ -1425,8 +1428,11 @@ body {
     .default-colors button.button--ghost,
     .default-colors a.button.button--ghost,
     .default-colors input.button.button--ghost {
-      background-color: transparent;
-      color: #0033a0; }
+      background-color: transparent; }
+    .default-colors button.button--bluegrass,
+    .default-colors a.button.button--bluegrass,
+    .default-colors input.button.button--bluegrass {
+      border-color: #0071eb; }
     .default-colors button.button--transparent,
     .default-colors a.button.button--transparent,
     .default-colors input.button.button--transparent {
@@ -1608,8 +1614,11 @@ body {
     .dark-colors button.button--ghost,
     .dark-colors a.button.button--ghost,
     .dark-colors input.button.button--ghost {
-      background-color: transparent;
-      color: #0033a0; }
+      background-color: transparent; }
+    .dark-colors button.button--bluegrass,
+    .dark-colors a.button.button--bluegrass,
+    .dark-colors input.button.button--bluegrass {
+      border-color: #0071eb; }
     .dark-colors button.button--transparent,
     .dark-colors a.button.button--transparent,
     .dark-colors input.button.button--transparent {
@@ -2256,26 +2265,29 @@ h6 {
   .formatted-text--dark button,
   .formatted-text--dark a.button,
   .formatted-text--dark input.button {
-    border-color: #0071eb;
+    border-color: #fff;
     background-color: #0071eb;
     color: #fff; }
     .formatted-text--dark button:link,
     .formatted-text--dark a.button:link,
     .formatted-text--dark input.button:link {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
     .formatted-text--dark button.button--ghost,
     .formatted-text--dark a.button.button--ghost,
     .formatted-text--dark input.button.button--ghost {
-      background-color: transparent;
-      color: #0071eb; }
+      background-color: transparent; }
+    .formatted-text--dark button.button--bluegrass,
+    .formatted-text--dark a.button.button--bluegrass,
+    .formatted-text--dark input.button.button--bluegrass {
+      border-color: #0071eb; }
     .formatted-text--dark button.button--transparent,
     .formatted-text--dark a.button.button--transparent,
     .formatted-text--dark input.button.button--transparent {
       border-color: transparent;
       background-color: transparent;
-      color: #0071eb; }
+      color: #fff; }
     .formatted-text--dark button[disabled],
     .formatted-text--dark a.button[disabled],
     .formatted-text--dark input.button[disabled] {
@@ -2535,7 +2547,7 @@ input.button {
     input.button .button--wildcat-blue button,
     input.button .button--wildcat-blue a.button,
     input.button .button--wildcat-blue input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--wildcat-blue button:link,
@@ -2547,7 +2559,7 @@ input.button {
       input.button .button--wildcat-blue button:link,
       input.button .button--wildcat-blue a.button:link,
       input.button .button--wildcat-blue input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--wildcat-blue button.button--ghost,
@@ -2559,8 +2571,17 @@ input.button {
       input.button .button--wildcat-blue button.button--ghost,
       input.button .button--wildcat-blue a.button.button--ghost,
       input.button .button--wildcat-blue input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--wildcat-blue button.button--bluegrass,
+      button .button--wildcat-blue a.button.button--bluegrass,
+      button .button--wildcat-blue input.button.button--bluegrass,
+      a.button .button--wildcat-blue button.button--bluegrass,
+      a.button .button--wildcat-blue a.button.button--bluegrass,
+      a.button .button--wildcat-blue input.button.button--bluegrass,
+      input.button .button--wildcat-blue button.button--bluegrass,
+      input.button .button--wildcat-blue a.button.button--bluegrass,
+      input.button .button--wildcat-blue input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--wildcat-blue button.button--transparent,
       button .button--wildcat-blue a.button.button--transparent,
       button .button--wildcat-blue input.button.button--transparent,
@@ -2572,7 +2593,7 @@ input.button {
       input.button .button--wildcat-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--wildcat-blue button[disabled],
       button .button--wildcat-blue a.button[disabled],
       button .button--wildcat-blue input.button[disabled],
@@ -2956,7 +2977,7 @@ input.button {
     input.button .button--bluegrass button,
     input.button .button--bluegrass a.button,
     input.button .button--bluegrass input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--bluegrass button:link,
@@ -2968,7 +2989,7 @@ input.button {
       input.button .button--bluegrass button:link,
       input.button .button--bluegrass a.button:link,
       input.button .button--bluegrass input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--bluegrass button.button--ghost,
@@ -2980,8 +3001,17 @@ input.button {
       input.button .button--bluegrass button.button--ghost,
       input.button .button--bluegrass a.button.button--ghost,
       input.button .button--bluegrass input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--bluegrass button.button--bluegrass,
+      button .button--bluegrass a.button.button--bluegrass,
+      button .button--bluegrass input.button.button--bluegrass,
+      a.button .button--bluegrass button.button--bluegrass,
+      a.button .button--bluegrass a.button.button--bluegrass,
+      a.button .button--bluegrass input.button.button--bluegrass,
+      input.button .button--bluegrass button.button--bluegrass,
+      input.button .button--bluegrass a.button.button--bluegrass,
+      input.button .button--bluegrass input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--bluegrass button.button--transparent,
       button .button--bluegrass a.button.button--transparent,
       button .button--bluegrass input.button.button--transparent,
@@ -2993,7 +3023,7 @@ input.button {
       input.button .button--bluegrass input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--bluegrass button[disabled],
       button .button--bluegrass a.button[disabled],
       button .button--bluegrass input.button[disabled],
@@ -3377,7 +3407,7 @@ input.button {
     input.button .button--midnight button,
     input.button .button--midnight a.button,
     input.button .button--midnight input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--midnight button:link,
@@ -3389,7 +3419,7 @@ input.button {
       input.button .button--midnight button:link,
       input.button .button--midnight a.button:link,
       input.button .button--midnight input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--midnight button.button--ghost,
@@ -3401,8 +3431,17 @@ input.button {
       input.button .button--midnight button.button--ghost,
       input.button .button--midnight a.button.button--ghost,
       input.button .button--midnight input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--midnight button.button--bluegrass,
+      button .button--midnight a.button.button--bluegrass,
+      button .button--midnight input.button.button--bluegrass,
+      a.button .button--midnight button.button--bluegrass,
+      a.button .button--midnight a.button.button--bluegrass,
+      a.button .button--midnight input.button.button--bluegrass,
+      input.button .button--midnight button.button--bluegrass,
+      input.button .button--midnight a.button.button--bluegrass,
+      input.button .button--midnight input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--midnight button.button--transparent,
       button .button--midnight a.button.button--transparent,
       button .button--midnight input.button.button--transparent,
@@ -3414,7 +3453,7 @@ input.button {
       input.button .button--midnight input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--midnight button[disabled],
       button .button--midnight a.button[disabled],
       button .button--midnight input.button[disabled],
@@ -3846,7 +3885,7 @@ input.button {
     input.button .button--wildcat-black button,
     input.button .button--wildcat-black a.button,
     input.button .button--wildcat-black input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--wildcat-black button:link,
@@ -3858,7 +3897,7 @@ input.button {
       input.button .button--wildcat-black button:link,
       input.button .button--wildcat-black a.button:link,
       input.button .button--wildcat-black input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--wildcat-black button.button--ghost,
@@ -3870,8 +3909,17 @@ input.button {
       input.button .button--wildcat-black button.button--ghost,
       input.button .button--wildcat-black a.button.button--ghost,
       input.button .button--wildcat-black input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--wildcat-black button.button--bluegrass,
+      button .button--wildcat-black a.button.button--bluegrass,
+      button .button--wildcat-black input.button.button--bluegrass,
+      a.button .button--wildcat-black button.button--bluegrass,
+      a.button .button--wildcat-black a.button.button--bluegrass,
+      a.button .button--wildcat-black input.button.button--bluegrass,
+      input.button .button--wildcat-black button.button--bluegrass,
+      input.button .button--wildcat-black a.button.button--bluegrass,
+      input.button .button--wildcat-black input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--wildcat-black button.button--transparent,
       button .button--wildcat-black a.button.button--transparent,
       button .button--wildcat-black input.button.button--transparent,
@@ -3883,7 +3931,7 @@ input.button {
       input.button .button--wildcat-black input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--wildcat-black button[disabled],
       button .button--wildcat-black a.button[disabled],
       button .button--wildcat-black input.button[disabled],
@@ -4267,7 +4315,7 @@ input.button {
     input.button .button--medium-blue button,
     input.button .button--medium-blue a.button,
     input.button .button--medium-blue input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--medium-blue button:link,
@@ -4279,7 +4327,7 @@ input.button {
       input.button .button--medium-blue button:link,
       input.button .button--medium-blue a.button:link,
       input.button .button--medium-blue input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--medium-blue button.button--ghost,
@@ -4291,8 +4339,17 @@ input.button {
       input.button .button--medium-blue button.button--ghost,
       input.button .button--medium-blue a.button.button--ghost,
       input.button .button--medium-blue input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--medium-blue button.button--bluegrass,
+      button .button--medium-blue a.button.button--bluegrass,
+      button .button--medium-blue input.button.button--bluegrass,
+      a.button .button--medium-blue button.button--bluegrass,
+      a.button .button--medium-blue a.button.button--bluegrass,
+      a.button .button--medium-blue input.button.button--bluegrass,
+      input.button .button--medium-blue button.button--bluegrass,
+      input.button .button--medium-blue a.button.button--bluegrass,
+      input.button .button--medium-blue input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--medium-blue button.button--transparent,
       button .button--medium-blue a.button.button--transparent,
       button .button--medium-blue input.button.button--transparent,
@@ -4304,7 +4361,7 @@ input.button {
       input.button .button--medium-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--medium-blue button[disabled],
       button .button--medium-blue a.button[disabled],
       button .button--medium-blue input.button[disabled],
@@ -4680,7 +4737,7 @@ input.button {
     input.button .button--dark-blue button,
     input.button .button--dark-blue a.button,
     input.button .button--dark-blue input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--dark-blue button:link,
@@ -4692,7 +4749,7 @@ input.button {
       input.button .button--dark-blue button:link,
       input.button .button--dark-blue a.button:link,
       input.button .button--dark-blue input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--dark-blue button.button--ghost,
@@ -4704,8 +4761,17 @@ input.button {
       input.button .button--dark-blue button.button--ghost,
       input.button .button--dark-blue a.button.button--ghost,
       input.button .button--dark-blue input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--dark-blue button.button--bluegrass,
+      button .button--dark-blue a.button.button--bluegrass,
+      button .button--dark-blue input.button.button--bluegrass,
+      a.button .button--dark-blue button.button--bluegrass,
+      a.button .button--dark-blue a.button.button--bluegrass,
+      a.button .button--dark-blue input.button.button--bluegrass,
+      input.button .button--dark-blue button.button--bluegrass,
+      input.button .button--dark-blue a.button.button--bluegrass,
+      input.button .button--dark-blue input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--dark-blue button.button--transparent,
       button .button--dark-blue a.button.button--transparent,
       button .button--dark-blue input.button.button--transparent,
@@ -4717,7 +4783,7 @@ input.button {
       input.button .button--dark-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--dark-blue button[disabled],
       button .button--dark-blue a.button[disabled],
       button .button--dark-blue input.button[disabled],
@@ -5093,7 +5159,7 @@ input.button {
     input.button .button--almost-wildcat-blue button,
     input.button .button--almost-wildcat-blue a.button,
     input.button .button--almost-wildcat-blue input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--almost-wildcat-blue button:link,
@@ -5105,7 +5171,7 @@ input.button {
       input.button .button--almost-wildcat-blue button:link,
       input.button .button--almost-wildcat-blue a.button:link,
       input.button .button--almost-wildcat-blue input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--almost-wildcat-blue button.button--ghost,
@@ -5117,8 +5183,17 @@ input.button {
       input.button .button--almost-wildcat-blue button.button--ghost,
       input.button .button--almost-wildcat-blue a.button.button--ghost,
       input.button .button--almost-wildcat-blue input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--almost-wildcat-blue button.button--bluegrass,
+      button .button--almost-wildcat-blue a.button.button--bluegrass,
+      button .button--almost-wildcat-blue input.button.button--bluegrass,
+      a.button .button--almost-wildcat-blue button.button--bluegrass,
+      a.button .button--almost-wildcat-blue a.button.button--bluegrass,
+      a.button .button--almost-wildcat-blue input.button.button--bluegrass,
+      input.button .button--almost-wildcat-blue button.button--bluegrass,
+      input.button .button--almost-wildcat-blue a.button.button--bluegrass,
+      input.button .button--almost-wildcat-blue input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--almost-wildcat-blue button.button--transparent,
       button .button--almost-wildcat-blue a.button.button--transparent,
       button .button--almost-wildcat-blue input.button.button--transparent,
@@ -5130,7 +5205,7 @@ input.button {
       input.button .button--almost-wildcat-blue input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--almost-wildcat-blue button[disabled],
       button .button--almost-wildcat-blue a.button[disabled],
       button .button--almost-wildcat-blue input.button[disabled],
@@ -5514,7 +5589,7 @@ input.button {
     input.button .button--light-blue-shade button,
     input.button .button--light-blue-shade a.button,
     input.button .button--light-blue-shade input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--light-blue-shade button:link,
@@ -5526,7 +5601,7 @@ input.button {
       input.button .button--light-blue-shade button:link,
       input.button .button--light-blue-shade a.button:link,
       input.button .button--light-blue-shade input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--light-blue-shade button.button--ghost,
@@ -5538,8 +5613,17 @@ input.button {
       input.button .button--light-blue-shade button.button--ghost,
       input.button .button--light-blue-shade a.button.button--ghost,
       input.button .button--light-blue-shade input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--light-blue-shade button.button--bluegrass,
+      button .button--light-blue-shade a.button.button--bluegrass,
+      button .button--light-blue-shade input.button.button--bluegrass,
+      a.button .button--light-blue-shade button.button--bluegrass,
+      a.button .button--light-blue-shade a.button.button--bluegrass,
+      a.button .button--light-blue-shade input.button.button--bluegrass,
+      input.button .button--light-blue-shade button.button--bluegrass,
+      input.button .button--light-blue-shade a.button.button--bluegrass,
+      input.button .button--light-blue-shade input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--light-blue-shade button.button--transparent,
       button .button--light-blue-shade a.button.button--transparent,
       button .button--light-blue-shade input.button.button--transparent,
@@ -5551,7 +5635,7 @@ input.button {
       input.button .button--light-blue-shade input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--light-blue-shade button[disabled],
       button .button--light-blue-shade a.button[disabled],
       button .button--light-blue-shade input.button[disabled],
@@ -5927,7 +6011,7 @@ input.button {
     input.button .button--blue-black button,
     input.button .button--blue-black a.button,
     input.button .button--blue-black input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--blue-black button:link,
@@ -5939,7 +6023,7 @@ input.button {
       input.button .button--blue-black button:link,
       input.button .button--blue-black a.button:link,
       input.button .button--blue-black input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--blue-black button.button--ghost,
@@ -5951,8 +6035,17 @@ input.button {
       input.button .button--blue-black button.button--ghost,
       input.button .button--blue-black a.button.button--ghost,
       input.button .button--blue-black input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--blue-black button.button--bluegrass,
+      button .button--blue-black a.button.button--bluegrass,
+      button .button--blue-black input.button.button--bluegrass,
+      a.button .button--blue-black button.button--bluegrass,
+      a.button .button--blue-black a.button.button--bluegrass,
+      a.button .button--blue-black input.button.button--bluegrass,
+      input.button .button--blue-black button.button--bluegrass,
+      input.button .button--blue-black a.button.button--bluegrass,
+      input.button .button--blue-black input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--blue-black button.button--transparent,
       button .button--blue-black a.button.button--transparent,
       button .button--blue-black input.button.button--transparent,
@@ -5964,7 +6057,7 @@ input.button {
       input.button .button--blue-black input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--blue-black button[disabled],
       button .button--blue-black a.button[disabled],
       button .button--blue-black input.button[disabled],
@@ -6364,7 +6457,7 @@ input.button {
     input.button .button--dark-gray button,
     input.button .button--dark-gray a.button,
     input.button .button--dark-gray input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--dark-gray button:link,
@@ -6376,7 +6469,7 @@ input.button {
       input.button .button--dark-gray button:link,
       input.button .button--dark-gray a.button:link,
       input.button .button--dark-gray input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--dark-gray button.button--ghost,
@@ -6388,8 +6481,17 @@ input.button {
       input.button .button--dark-gray button.button--ghost,
       input.button .button--dark-gray a.button.button--ghost,
       input.button .button--dark-gray input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--dark-gray button.button--bluegrass,
+      button .button--dark-gray a.button.button--bluegrass,
+      button .button--dark-gray input.button.button--bluegrass,
+      a.button .button--dark-gray button.button--bluegrass,
+      a.button .button--dark-gray a.button.button--bluegrass,
+      a.button .button--dark-gray input.button.button--bluegrass,
+      input.button .button--dark-gray button.button--bluegrass,
+      input.button .button--dark-gray a.button.button--bluegrass,
+      input.button .button--dark-gray input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--dark-gray button.button--transparent,
       button .button--dark-gray a.button.button--transparent,
       button .button--dark-gray input.button.button--transparent,
@@ -6401,7 +6503,7 @@ input.button {
       input.button .button--dark-gray input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--dark-gray button[disabled],
       button .button--dark-gray a.button[disabled],
       button .button--dark-gray input.button[disabled],
@@ -6801,7 +6903,7 @@ input.button {
     input.button .button--alert button,
     input.button .button--alert a.button,
     input.button .button--alert input.button {
-      border-color: #0071eb;
+      border-color: #fff;
       background-color: #0071eb;
       color: #fff; }
       button .button--alert button:link,
@@ -6813,7 +6915,7 @@ input.button {
       input.button .button--alert button:link,
       input.button .button--alert a.button:link,
       input.button .button--alert input.button:link {
-        border-color: #0071eb;
+        border-color: #fff;
         background-color: #0071eb;
         color: #fff; }
       button .button--alert button.button--ghost,
@@ -6825,8 +6927,17 @@ input.button {
       input.button .button--alert button.button--ghost,
       input.button .button--alert a.button.button--ghost,
       input.button .button--alert input.button.button--ghost {
-        background-color: transparent;
-        color: #0071eb; }
+        background-color: transparent; }
+      button .button--alert button.button--bluegrass,
+      button .button--alert a.button.button--bluegrass,
+      button .button--alert input.button.button--bluegrass,
+      a.button .button--alert button.button--bluegrass,
+      a.button .button--alert a.button.button--bluegrass,
+      a.button .button--alert input.button.button--bluegrass,
+      input.button .button--alert button.button--bluegrass,
+      input.button .button--alert a.button.button--bluegrass,
+      input.button .button--alert input.button.button--bluegrass {
+        border-color: #0071eb; }
       button .button--alert button.button--transparent,
       button .button--alert a.button.button--transparent,
       button .button--alert input.button.button--transparent,
@@ -6838,7 +6949,7 @@ input.button {
       input.button .button--alert input.button.button--transparent {
         border-color: transparent;
         background-color: transparent;
-        color: #0071eb; }
+        color: #fff; }
       button .button--alert button[disabled],
       button .button--alert a.button[disabled],
       button .button--alert input.button[disabled],

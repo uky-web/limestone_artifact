@@ -7,9 +7,12 @@ var apax_megamenu = function apax_megamenu() {
             var $slabEl = $(this).next('.mega-menu__slab');
 
             if ($slabEl.hasClass('open')) {
+                $(this).attr('aria-expanded', 'false');
                 $slabEl.removeClass('open');
             } else {
                 $(this).parents('.mega-menu').children('.mega-menu__slab').removeClass('open');
+                $(this).parents('.mega-menu').children('.mega-menu__nav-item').attr('aria-expanded', 'false');
+                $(this).attr('aria-expanded', 'true');
                 $slabEl.addClass('open');
             }
         });
@@ -38,6 +41,10 @@ var apax_megamenu = function apax_megamenu() {
                 if ($(this).hasClass('open')) {
                     $(this).removeClass('open');
                 };
+            });
+
+            $('.mega-menu__nav-item').each(function () {
+                $(this).attr('aria-expanded', 'false');
             });
         };
     });
