@@ -90,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-883289889.eot");
-  src: url("../fonts/icons-883289889.eot?#iefix") format("eot"), url("../fonts/icons-883289889.woff2") format("woff2"), url("../fonts/icons-883289889.woff") format("woff"), url("../fonts/icons-883289889.ttf") format("truetype"), url("../fonts/icons-883289889.svg#icons-883289889") format("svg");
+  src: url("../fonts/icons-373357499.eot");
+  src: url("../fonts/icons-373357499.eot?#iefix") format("eot"), url("../fonts/icons-373357499.woff2") format("woff2"), url("../fonts/icons-373357499.woff") format("woff"), url("../fonts/icons-373357499.ttf") format("truetype"), url("../fonts/icons-373357499.svg#icons-373357499") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -16440,8 +16440,8 @@ figure {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .global-header__banner .uky-logo-main {
-    width: 23.118rem;
-    height: 6rem; }
+    width: 14.118rem;
+    height: 3.5rem; }
   .global-header__banner .toggle-button {
     -ms-flex-item-align: center;
         align-self: center; }
@@ -16449,7 +16449,10 @@ figure {
     .global-header__banner .toggle-button {
       display: none; }
     .global-header__banner .menu-button {
-      display: none; } }
+      display: none; }
+    .global-header__banner .uky-logo-main {
+      width: 23.118rem;
+      height: 6rem; } }
 
 .mobile-tab-nav .utility-nav {
   display: block;
