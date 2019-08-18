@@ -90,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-893680432.eot");
-  src: url("../fonts/icons-893680432.eot?#iefix") format("eot"), url("../fonts/icons-893680432.woff2") format("woff2"), url("../fonts/icons-893680432.woff") format("woff"), url("../fonts/icons-893680432.ttf") format("truetype"), url("../fonts/icons-893680432.svg#icons-893680432") format("svg");
+  src: url("../fonts/icons-979366500.eot");
+  src: url("../fonts/icons-979366500.eot?#iefix") format("eot"), url("../fonts/icons-979366500.woff2") format("woff2"), url("../fonts/icons-979366500.woff") format("woff"), url("../fonts/icons-979366500.ttf") format("truetype"), url("../fonts/icons-979366500.svg#icons-979366500") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1877,7 +1877,7 @@ img.mfp-img {
     @media screen and (min-width: 80rem) {
       .checker-divider::after {
         padding: 0 0; } }
-  .checker-divider.page-header.page-header--hero.popout::after {
+  .checker-divider.page-header.page-header--hero::after {
     bottom: 0; }
 
 .checker-endmark::after {
@@ -17497,13 +17497,17 @@ figure {
       max-width: 355px;
       margin-right: 0; } }
   .page-header.page-header--hero.page-header--overlay-hero {
-    position: relative; }
+    position: relative;
+    padding-bottom: 0; }
     .page-header.page-header--hero.page-header--overlay-hero .slab__wrapper {
-      border: none; }
+      border: none;
+      margin-top: 0;
+      margin-bottom: 0; }
     .page-header.page-header--hero.page-header--overlay-hero .page-header__content {
       position: absolute;
       bottom: 0;
-      padding: 0; }
+      padding: 0;
+      margin-bottom: 1rem; }
     .page-header.page-header--hero.page-header--overlay-hero .headline-group,
     .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super {
       color: #fff; }
