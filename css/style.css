@@ -90,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-742659997.eot");
-  src: url("../fonts/icons-742659997.eot?#iefix") format("eot"), url("../fonts/icons-742659997.woff2") format("woff2"), url("../fonts/icons-742659997.woff") format("woff"), url("../fonts/icons-742659997.ttf") format("truetype"), url("../fonts/icons-742659997.svg#icons-742659997") format("svg");
+  src: url("../fonts/icons-893680432.eot");
+  src: url("../fonts/icons-893680432.eot?#iefix") format("eot"), url("../fonts/icons-893680432.woff2") format("woff2"), url("../fonts/icons-893680432.woff") format("woff"), url("../fonts/icons-893680432.ttf") format("truetype"), url("../fonts/icons-893680432.svg#icons-893680432") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -15798,7 +15798,8 @@ button.accordion__header {
 .menu-button {
   margin-right: 1rem;
   padding: 0;
-  border-width: 0; }
+  border-width: 0;
+  width: auto; }
 
 .no-scroll {
   overflow: hidden; }
@@ -17495,6 +17496,17 @@ figure {
           align-self: stretch;
       max-width: 355px;
       margin-right: 0; } }
+  .page-header.page-header--hero.page-header--overlay-hero {
+    position: relative; }
+    .page-header.page-header--hero.page-header--overlay-hero .slab__wrapper {
+      border: none; }
+    .page-header.page-header--hero.page-header--overlay-hero .page-header__content {
+      position: absolute;
+      bottom: 0;
+      padding: 0; }
+    .page-header.page-header--hero.page-header--overlay-hero .headline-group,
+    .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super {
+      color: #fff; }
 
 .page-header.page-header--split {
   padding: 0;
