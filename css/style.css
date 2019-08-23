@@ -90,8 +90,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-948087701.eot");
-  src: url("../fonts/icons-948087701.eot?#iefix") format("eot"), url("../fonts/icons-948087701.woff2") format("woff2"), url("../fonts/icons-948087701.woff") format("woff"), url("../fonts/icons-948087701.ttf") format("truetype"), url("../fonts/icons-948087701.svg#icons-948087701") format("svg");
+  src: url("../fonts/icons-890938247.eot");
+  src: url("../fonts/icons-890938247.eot?#iefix") format("eot"), url("../fonts/icons-890938247.woff2") format("woff2"), url("../fonts/icons-890938247.woff") format("woff"), url("../fonts/icons-890938247.ttf") format("truetype"), url("../fonts/icons-890938247.svg#icons-890938247") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -17514,7 +17514,18 @@ figure {
           width: 100%; } }
     .page-header.page-header--hero.page-header--overlay-hero .headline-group,
     .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super {
-      color: #fff; }
+      color: #fff;
+      text-shadow: 1px 1px 2px black; }
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group a:link, .page-header.page-header--hero.page-header--overlay-hero .headline-group a:visited,
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super a:link,
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super a:visited {
+        text-decoration: none;
+        color: #fff; }
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group a:hover, .page-header.page-header--hero.page-header--overlay-hero .headline-group a:active,
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super a:hover,
+      .page-header.page-header--hero.page-header--overlay-hero .headline-group .headline-group__super a:active {
+        text-decoration: underline;
+        color: #fff; }
 
 .page-header.page-header--split {
   padding: 0;
