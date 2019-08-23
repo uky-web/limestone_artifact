@@ -16,6 +16,7 @@ $(document).ready(function () {
 
   // Initialize RIA components; 
   // this is handled differently in Drupal
+  apax_megamenu();
   image_gallery();
   accordion();
   ambient_video();
@@ -23,5 +24,6 @@ $(document).ready(function () {
   modals();
   togglebutton();
   responsive_grid_table();
+  link_group_dropdown();
 });
 //# sourceMappingURL=patternlab.js.map
