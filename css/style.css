@@ -96,8 +96,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-427404425.eot");
-  src: url("../fonts/icons-427404425.eot?#iefix") format("eot"), url("../fonts/icons-427404425.woff2") format("woff2"), url("../fonts/icons-427404425.woff") format("woff"), url("../fonts/icons-427404425.ttf") format("truetype"), url("../fonts/icons-427404425.svg#icons-427404425") format("svg");
+  src: url("../fonts/icons-593475236.eot");
+  src: url("../fonts/icons-593475236.eot?#iefix") format("eot"), url("../fonts/icons-593475236.woff2") format("woff2"), url("../fonts/icons-593475236.woff") format("woff"), url("../fonts/icons-593475236.ttf") format("truetype"), url("../fonts/icons-593475236.svg#icons-593475236") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -23341,7 +23341,7 @@ figure {
 
 .social-media-links {
   padding: 2rem;
-  background-color: #eff4fd; }
+  background-color: #B1C9E8; }
   .social-media-links__linkset {
     font-size: 2rem;
     line-height: 2rem;
@@ -23568,7 +23568,7 @@ figure {
     .social-media-links.social-media-links--blocks .social-media-links__linkset a {
       text-align: left; }
   .social-media-links.social-media-links--row {
-    background-color: transparent; }
+    background-color: #B1C9E8; }
     .social-media-links.social-media-links--row .social-media-links__linkset {
       font-size: 1.775rem;
       line-height: 2rem;
