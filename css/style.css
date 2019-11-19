@@ -96,8 +96,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-397447190.eot");
-  src: url("../fonts/icons-397447190.eot?#iefix") format("eot"), url("../fonts/icons-397447190.woff2") format("woff2"), url("../fonts/icons-397447190.woff") format("woff"), url("../fonts/icons-397447190.ttf") format("truetype"), url("../fonts/icons-397447190.svg#icons-397447190") format("svg");
+  src: url("../fonts/icons-084768263.eot");
+  src: url("../fonts/icons-084768263.eot?#iefix") format("eot"), url("../fonts/icons-084768263.woff2") format("woff2"), url("../fonts/icons-084768263.woff") format("woff"), url("../fonts/icons-084768263.ttf") format("truetype"), url("../fonts/icons-084768263.svg#icons-084768263") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -2087,7 +2087,7 @@ body {
   body .social-media-links a:link, body .social-media-links a:visited {
     color: #0033a0; }
   body .social-media-links a:hover, body .social-media-links a:active {
-    color: #fff; }
+    color: #515664; }
   body form input[type='text'],
   body form input[type='password'],
   body form input[type='color'],
@@ -2290,7 +2290,7 @@ body {
   .default-colors .social-media-links a:link, .default-colors .social-media-links a:visited {
     color: #0033a0; }
   .default-colors .social-media-links a:hover, .default-colors .social-media-links a:active {
-    color: #fff; }
+    color: #515664; }
   .default-colors form input[type='text'],
   .default-colors form input[type='password'],
   .default-colors form input[type='color'],
@@ -2486,7 +2486,7 @@ body {
   .dark-colors .social-media-links a:link, .dark-colors .social-media-links a:visited {
     color: #0033a0; }
   .dark-colors .social-media-links a:hover, .dark-colors .social-media-links a:active {
-    color: #fff; }
+    color: #515664; }
   .dark-colors form input[type='text'],
   .dark-colors form input[type='password'],
   .dark-colors form input[type='color'],
@@ -11490,7 +11490,7 @@ dl.invisible-labels dd {
   .slab--speckled .social-media-links a:link, .slab--speckled .social-media-links a:visited {
     color: #0033a0; }
   .slab--speckled .social-media-links a:hover, .slab--speckled .social-media-links a:active {
-    color: #fff; }
+    color: #515664; }
   .slab--speckled form input[type='text'],
   .slab--speckled form input[type='password'],
   .slab--speckled form input[type='color'],
@@ -18853,7 +18853,7 @@ figure {
       .page-header.page-header--split.slab--dark-blue .page-header__content .social-media-links a:link, .page-header.page-header--split.slab--dark-blue .page-header__content .social-media-links a:visited {
         color: #0033a0; }
       .page-header.page-header--split.slab--dark-blue .page-header__content .social-media-links a:hover, .page-header.page-header--split.slab--dark-blue .page-header__content .social-media-links a:active {
-        color: #fff; }
+        color: #515664; }
       .page-header.page-header--split.slab--dark-blue .page-header__content form input[type='text'],
       .page-header.page-header--split.slab--dark-blue .page-header__content form input[type='password'],
       .page-header.page-header--split.slab--dark-blue .page-header__content form input[type='color'],
@@ -19049,7 +19049,7 @@ figure {
       .page-header.page-header--split.slab--wildcat-blue .page-header__content .social-media-links a:link, .page-header.page-header--split.slab--wildcat-blue .page-header__content .social-media-links a:visited {
         color: #0033a0; }
       .page-header.page-header--split.slab--wildcat-blue .page-header__content .social-media-links a:hover, .page-header.page-header--split.slab--wildcat-blue .page-header__content .social-media-links a:active {
-        color: #fff; }
+        color: #515664; }
       .page-header.page-header--split.slab--wildcat-blue .page-header__content form input[type='text'],
       .page-header.page-header--split.slab--wildcat-blue .page-header__content form input[type='password'],
       .page-header.page-header--split.slab--wildcat-blue .page-header__content form input[type='color'],
@@ -20819,7 +20819,7 @@ figure {
     .cta.cta--ghost .social-media-links a:link, .cta.cta--ghost .social-media-links a:visited {
       color: #0033a0; }
     .cta.cta--ghost .social-media-links a:hover, .cta.cta--ghost .social-media-links a:active {
-      color: #fff; }
+      color: #515664; }
     .cta.cta--ghost form input[type='text'],
     .cta.cta--ghost form input[type='password'],
     .cta.cta--ghost form input[type='color'],
@@ -23341,7 +23341,7 @@ figure {
 
 .social-media-links {
   padding: 2rem;
-  background-color: #eff4fd; }
+  background-color: #B1C9E8; }
   .social-media-links__linkset {
     font-size: 2rem;
     line-height: 2rem;
