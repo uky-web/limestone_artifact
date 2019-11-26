@@ -79,6 +79,18 @@
   src: url("../fonts/227de6ba-fef9-435d-8693-a53a76aa1add.eot?#iefix");
   src: url("../fonts/227de6ba-fef9-435d-8693-a53a76aa1add.eot?#iefix") format("eot"), url("../fonts/dae937ec-159f-4710-9b2d-9470e24807ba.woff2") format("woff2"), url("../fonts/c8856bf2-4d23-4e30-9fb1-eede15b787b6.woff") format("woff"), url("../fonts/376f433f-1486-4168-932f-06352c8291f8.ttf") format("truetype"); }
 
+@font-face {
+  font-family: 'blackbikeclean';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/blackbike-clean-webfont.woff2") format("woff2"), url("../fonts/blackbike-clean-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'blackbikerough';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/blackbike-rough-webfont.woff2") format("woff2"), url("../fonts/blackbike-rough-webfont.woff") format("woff"); }
+
 body {
   font-family: "AvenirNextLT", sans-serif; }
 
@@ -94,10 +106,16 @@ body {
 .font-tradegothic {
   font-family: "TradeGothicCond", sans-serif; }
 
+.font-blackbikeclean {
+  font-family: "blackbikeclean", serif; }
+
+.font-blackbikerough {
+  font-family: "blackbikerough", serif; }
+
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-388353904.eot");
-  src: url("../fonts/icons-388353904.eot?#iefix") format("eot"), url("../fonts/icons-388353904.woff2") format("woff2"), url("../fonts/icons-388353904.woff") format("woff"), url("../fonts/icons-388353904.ttf") format("truetype"), url("../fonts/icons-388353904.svg#icons-388353904") format("svg");
+  src: url("../fonts/icons-394222053.eot");
+  src: url("../fonts/icons-394222053.eot?#iefix") format("eot"), url("../fonts/icons-394222053.woff2") format("woff2"), url("../fonts/icons-394222053.woff") format("woff"), url("../fonts/icons-394222053.ttf") format("truetype"), url("../fonts/icons-394222053.svg#icons-394222053") format("svg");
   font-weight: normal;
   font-style: normal; }
 
