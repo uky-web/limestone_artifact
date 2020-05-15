@@ -4,47 +4,48 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var slabSeriesTest = function slabSeriesTest() {
-    domReady(function () {
-        var targetEl = document.querySelectorAll('.slab-series');
-        Array.from(targetEl).forEach(function (El) {
-            var slabseries = new SlabSeries(El);
-        });
-    });
-};
-
 var SlabSeries = function () {
-    function SlabSeries(rootElement, props) {
+    function SlabSeries(el) {
+        var props = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
         _classCallCheck(this, SlabSeries);
 
-        console.log('constructing SlabSeries');
-        //get the root element
-        this.root = rootElement;
-
-        //get the 'next' button
-
-        //get each slab and keep references in an array
-
-        //set initial state (keep the state in dom attributes)
-
-        //set inline styling
+        this.rootEl = el;
+        this.bind(this.rootEl);
     }
 
     _createClass(SlabSeries, [{
         key: 'bind',
-        value: function bind() {
+        value: function bind(el) {
             var component = this;
 
-            //DOM events
-            //button clicked
+            //bind to each 'next' link
+            var nextLinks = component.rootEl.querySelectorAll('.slab-series__next a');
+            Array.from(nextLinks).forEach(function (linkEl) {
+                linkEl.addEventListener('click', function (event) {
 
-            //Custom events
+                    var currentSlab = event.target.parentNode.parentNode.parentNode,
+                        nextSlab;
+                    if (currentSlab.nextElementSibling) {
+                        nextSlab = currentSlab.nextElementSibling;
+                    } else {
+                        nextSlab = currentSlab.parentNode.firstElementChild;
+                    }
+                    console.log("clicked!", nextSlab);
+                });
+                return event;
+            });
 
-            //Series advanced
+            //window.addEventListener('resize', reportWindowSize);
 
-            //Slab displayed
+            //document.addEventListener('keydown', function (event) {});
+        }
+    }, {
+        key: 'advanceTo',
+        value: function advanceTo(el) {
+            //get the x position of the next slab
 
-            //Slab hidden
+            //scroll to it
         }
     }]);
 

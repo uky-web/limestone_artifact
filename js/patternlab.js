@@ -29,5 +29,11 @@ $(document).ready(function () {
   globalMegamenu();
   //link_group_dropdown();
 
+
+  var slabseriesEls = document.querySelectorAll('.slab-series');
+
+  Array.from(slabseriesEls).forEach(function (El) {
+    var slabseries = new SlabSeries(El);
+  });
 });
 //# sourceMappingURL=patternlab.js.map
