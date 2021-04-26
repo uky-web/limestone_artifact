@@ -6248,8 +6248,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-326566590.eot");
-  src: url("../fonts/icons-326566590.eot?#iefix") format("eot"), url("../fonts/icons-326566590.woff2") format("woff2"), url("../fonts/icons-326566590.woff") format("woff"), url("../fonts/icons-326566590.ttf") format("truetype"), url("../fonts/icons-326566590.svg#icons-326566590") format("svg");
+  src: url("../fonts/icons-740341259.eot");
+  src: url("../fonts/icons-740341259.eot?#iefix") format("eot"), url("../fonts/icons-740341259.woff2") format("woff2"), url("../fonts/icons-740341259.woff") format("woff"), url("../fonts/icons-740341259.ttf") format("truetype"), url("../fonts/icons-740341259.svg#icons-740341259") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -11715,16 +11715,6 @@ button.accordion__header {
   border-width: 0;
   width: auto; }
 
-.menu-button:focus {
-  border-color: #ffffff;
-  outline: 2px solid #ffffff;
-  background-color: #0033a0;
-  color: #DCDDDE; }
-
-.menu-button:active {
-  background: #0033a0;
-  color: #DCDDDE; }
-
 .no-scroll {
   overflow: hidden; }
 
@@ -12222,6 +12212,14 @@ figure {
     padding: 0; }
   .global-header .utility-nav {
     display: none; }
+  .global-header .menu-button:focus {
+    border-color: #ffffff;
+    outline: 2px solid #ffffff;
+    background-color: #0033a0;
+    color: #DCDDDE; }
+  .global-header .menu-button:active {
+    background: #0033a0;
+    color: #DCDDDE; }
   @media screen and (min-width: 58rem) {
     .global-header .slab.global-header__masthead {
       padding: 1.5rem 1rem 0.5rem; }
