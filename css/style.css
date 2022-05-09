@@ -6248,8 +6248,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-428176362.eot");
-  src: url("../fonts/icons-428176362.eot?#iefix") format("eot"), url("../fonts/icons-428176362.woff2") format("woff2"), url("../fonts/icons-428176362.woff") format("woff"), url("../fonts/icons-428176362.ttf") format("truetype"), url("../fonts/icons-428176362.svg#icons-428176362") format("svg");
+  src: url("../fonts/icons-410354832.eot");
+  src: url("../fonts/icons-410354832.eot?#iefix") format("eot"), url("../fonts/icons-410354832.woff2") format("woff2"), url("../fonts/icons-410354832.woff") format("woff"), url("../fonts/icons-410354832.ttf") format("truetype"), url("../fonts/icons-410354832.svg#icons-410354832") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -10815,6 +10815,9 @@ dl.invisible-labels dd {
     .section-nav ol li a,
     .section-nav ul li a {
       text-decoration: none; }
+      .section-nav ol li a:active,
+      .section-nav ul li a:active {
+        font-weight: bold; }
   @media screen and (min-width: 35rem) {
     .section-nav ol,
     .section-nav ul {
