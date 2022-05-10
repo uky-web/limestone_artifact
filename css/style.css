@@ -6248,8 +6248,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-755633051.eot");
-  src: url("../fonts/icons-755633051.eot?#iefix") format("eot"), url("../fonts/icons-755633051.woff2") format("woff2"), url("../fonts/icons-755633051.woff") format("woff"), url("../fonts/icons-755633051.ttf") format("truetype"), url("../fonts/icons-755633051.svg#icons-755633051") format("svg");
+  src: url("../fonts/icons-405531106.eot");
+  src: url("../fonts/icons-405531106.eot?#iefix") format("eot"), url("../fonts/icons-405531106.woff2") format("woff2"), url("../fonts/icons-405531106.woff") format("woff"), url("../fonts/icons-405531106.ttf") format("truetype"), url("../fonts/icons-405531106.svg#icons-405531106") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -14639,8 +14639,8 @@ form {
   font-weight: 500;
   text-transform: uppercase; }
 
-.section-nav ol li a:active,
-.section-nav ul li a:active {
+.section-nav ol li a.is-active,
+.section-nav ul li a.is-active {
   font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
