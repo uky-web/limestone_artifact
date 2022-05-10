@@ -6248,8 +6248,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-463626404.eot");
-  src: url("../fonts/icons-463626404.eot?#iefix") format("eot"), url("../fonts/icons-463626404.woff2") format("woff2"), url("../fonts/icons-463626404.woff") format("woff"), url("../fonts/icons-463626404.ttf") format("truetype"), url("../fonts/icons-463626404.svg#icons-463626404") format("svg");
+  src: url("../fonts/icons-547457169.eot");
+  src: url("../fonts/icons-547457169.eot?#iefix") format("eot"), url("../fonts/icons-547457169.woff2") format("woff2"), url("../fonts/icons-547457169.woff") format("woff"), url("../fonts/icons-547457169.ttf") format("truetype"), url("../fonts/icons-547457169.svg#icons-547457169") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -10823,8 +10823,8 @@ dl.invisible-labels dd {
     .section-nav ol li a,
     .section-nav ul li a {
       text-decoration: none; }
-    .section-nav ol li a:active,
-    .section-nav ul li a:active {
+    .section-nav ol li a.is-active,
+    .section-nav ul li a.is-active {
       font-weight: bold; }
   @media screen and (min-width: 35rem) {
     .section-nav ol,
@@ -14630,17 +14630,5 @@ form {
     max-width: 100%; }
   form .form-item {
     margin-bottom: 1rem; }
-
-.section-nav + label {
-  font-size: 1.1667rem;
-  line-height: 1.5rem;
-  display: block;
-  margin-bottom: 1rem;
-  font-weight: 500;
-  text-transform: uppercase; }
-
-.section-nav ol li a.is-active,
-.section-nav ul li a.is-active {
-  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
