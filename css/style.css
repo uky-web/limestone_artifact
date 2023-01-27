@@ -6248,8 +6248,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-150370648.eot");
-  src: url("../fonts/icons-150370648.eot?#iefix") format("eot"), url("../fonts/icons-150370648.woff2") format("woff2"), url("../fonts/icons-150370648.woff") format("woff"), url("../fonts/icons-150370648.ttf") format("truetype"), url("../fonts/icons-150370648.svg#icons-150370648") format("svg");
+  src: url("../fonts/icons-873589233.eot");
+  src: url("../fonts/icons-873589233.eot?#iefix") format("eot"), url("../fonts/icons-873589233.woff2") format("woff2"), url("../fonts/icons-873589233.woff") format("woff"), url("../fonts/icons-873589233.ttf") format("truetype"), url("../fonts/icons-873589233.svg#icons-873589233") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -11980,13 +11980,15 @@ button.mfp-close {
   padding: 0;
   list-style: none; }
 
+.js-tablist__item:nth-child(2) {
+  padding: 0 20px 0 20px; }
+
 .js-tablist__item {
   position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
-  margin-bottom: 0;
-  padding: 20px 20px 0 0; }
+  margin-bottom: 0; }
   .js-tablist__item a {
     font-size: 0.875rem;
     line-height: 1rem;
