@@ -1,13 +1,16 @@
 :root {
   font-size: 1rem;
   line-height: 1rem;
-  position: relative; }
-  @media screen and (min-width: 76rem) {
-    :root {
-      font-size: 1rem;
-      line-height: 1rem; } }
+  position: relative;
+}
+@media screen and (min-width: 76rem) {
+  :root {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
 
 body {
-  background-color: #0033a0; }
-
+  background-color: #0033a0;
+}
 /*# sourceMappingURL=project.css.map */
