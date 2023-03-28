@@ -7102,7 +7102,7 @@ body {
 }
 
 .font-mercury {
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
 }
 
 .font-avenirnext {
@@ -7135,8 +7135,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-195174938.eot");
-  src: url("../fonts/icons-195174938.eot?#iefix") format("eot"), url("../fonts/icons-195174938.woff2") format("woff2"), url("../fonts/icons-195174938.woff") format("woff"), url("../fonts/icons-195174938.ttf") format("truetype"), url("../fonts/icons-195174938.svg#icons-195174938") format("svg");
+  src: url("../fonts/icons-958184722.eot");
+  src: url("../fonts/icons-958184722.eot?#iefix") format("eot"), url("../fonts/icons-958184722.woff2") format("woff2"), url("../fonts/icons-958184722.woff") format("woff"), url("../fonts/icons-958184722.ttf") format("truetype"), url("../fonts/icons-958184722.svg#icons-958184722") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -31956,7 +31956,7 @@ h6.headline-group .headline-group__head {
 .lockup {
   display: block;
   position: relative;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-size: 0;
 }
 .lockup:link, .lockup:visited {
@@ -34732,16 +34732,8 @@ h6.headline-group .headline-group__head {
   text-decoration: none;
 }
 .universal-breadcrumb .link--fancy-reverse {
-  font-size: 1rem;
-  line-height: 1rem;
   margin-left: -1rem;
   padding-left: 1rem;
-}
-@media screen and (min-width: 76rem) {
-  .universal-breadcrumb .link--fancy-reverse {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
 }
 .universal-breadcrumb .link--fancy-reverse::before {
   top: 0.05em;
@@ -34754,55 +34746,86 @@ h6.headline-group .headline-group__head {
   font-size: inherit;
 }
 .universal-breadcrumb ul {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1rem;
   margin-left: 1rem;
   padding: 0;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-weight: normal;
   list-style: none;
 }
 @media screen and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 35rem) {
   .universal-breadcrumb ul {
-    font-size: 1rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 35rem) and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 1rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 58rem) {
   .universal-breadcrumb ul {
-    font-size: 1.1667rem;
-    line-height: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
     margin: 0 0 0 1rem;
   }
 }
 @media screen and (min-width: 58rem) and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 1.1667rem;
-    line-height: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
 }
 .universal-breadcrumb ul li {
   display: inline;
   position: relative;
-  margin-right: calc(2rem + 1px);
+  margin-right: 2rem;
+}
+.universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
 }
 .universal-breadcrumb ul li::after {
   display: block;
   position: absolute;
   top: 50%;
-  right: -1rem;
+  right: -1.2rem;
   width: 1px;
   height: 1rem;
   -webkit-transform: translateY(-50%);
@@ -35720,8 +35743,7 @@ figure figcaption {
 
 .universal-header {
   display: none;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
   background-color: #041E42;
 }
 .universal-header .universal-header__layout {

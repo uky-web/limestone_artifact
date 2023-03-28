@@ -30,7 +30,7 @@ body {
 }
 
 .font-mercury {
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
 }
 
 .font-avenirnext {
@@ -63,8 +63,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-195174938.eot");
-  src: url("../fonts/icons-195174938.eot?#iefix") format("eot"), url("../fonts/icons-195174938.woff2") format("woff2"), url("../fonts/icons-195174938.woff") format("woff"), url("../fonts/icons-195174938.ttf") format("truetype"), url("../fonts/icons-195174938.svg#icons-195174938") format("svg");
+  src: url("../fonts/icons-958184722.eot");
+  src: url("../fonts/icons-958184722.eot?#iefix") format("eot"), url("../fonts/icons-958184722.woff2") format("woff2"), url("../fonts/icons-958184722.woff") format("woff"), url("../fonts/icons-958184722.ttf") format("truetype"), url("../fonts/icons-958184722.svg#icons-958184722") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12961,7 +12961,7 @@ h6.headline-group .headline-group__head {
 .lockup {
   display: block;
   position: relative;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-size: 0;
 }
 .lockup:link, .lockup:visited {
