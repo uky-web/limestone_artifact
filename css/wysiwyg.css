@@ -30,7 +30,7 @@ body {
 }
 
 .font-mercury {
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
 }
 
 .font-avenirnext {
@@ -63,8 +63,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-213534042.eot");
-  src: url("../fonts/icons-213534042.eot?#iefix") format("eot"), url("../fonts/icons-213534042.woff2") format("woff2"), url("../fonts/icons-213534042.woff") format("woff"), url("../fonts/icons-213534042.ttf") format("truetype"), url("../fonts/icons-213534042.svg#icons-213534042") format("svg");
+  src: url("../fonts/icons-295580548.eot");
+  src: url("../fonts/icons-295580548.eot?#iefix") format("eot"), url("../fonts/icons-295580548.woff2") format("woff2"), url("../fonts/icons-295580548.woff") format("woff"), url("../fonts/icons-295580548.ttf") format("truetype"), url("../fonts/icons-295580548.svg#icons-295580548") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12961,7 +12961,7 @@ h6.headline-group .headline-group__head {
 .lockup {
   display: block;
   position: relative;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-size: 0;
 }
 .lockup:link, .lockup:visited {
@@ -13069,6 +13069,7 @@ h6.headline-group .headline-group__head {
   position: relative;
   font-family: "usual", sans-serif;
   font-size: 0;
+  margin-right: 1rem;
 }
 .site-identity:link, .site-identity:visited {
   color: #c8c8c7;
@@ -13092,21 +13093,26 @@ h6.headline-group .headline-group__head {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #fff;
   vertical-align: middle;
   word-wrap: none;
 }
 .site-identity__logo .uk-logo-svg {
-  border-right: 1px #c8c8c7 solid;
   margin-right: 1.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 35rem) {
+  .site-identity__logo .uk-logo-svg {
+    border-right: 1px #c8c8c7 solid;
+  }
 }
 .site-identity__logo svg {
-  width: 10vw;
   min-width: 50px;
-  height: auto;
   margin-right: 1.5vw;
 }
 .site-identity__wordmark {
@@ -13128,6 +13134,9 @@ h6.headline-group .headline-group__head {
 .site-identity__wordmark__row--subhead {
   font-size: 3vw;
   font-weight: 300;
+}
+.site-identity__wordmark__row--subhead.no-mobile {
+  display: none;
 }
 .site-identity__unit {
   font-size: 0.875rem;
@@ -13161,6 +13170,10 @@ h6.headline-group .headline-group__head {
   }
   .site-identity__wordmark__row--subhead {
     font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .site-identity__wordmark__row--subhead.no-mobile {
+    display: inline;
   }
   .site-identity__unit {
     margin-left: 4.50625rem;

@@ -7102,7 +7102,7 @@ body {
 }
 
 .font-mercury {
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
 }
 
 .font-avenirnext {
@@ -7135,8 +7135,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-213534042.eot");
-  src: url("../fonts/icons-213534042.eot?#iefix") format("eot"), url("../fonts/icons-213534042.woff2") format("woff2"), url("../fonts/icons-213534042.woff") format("woff"), url("../fonts/icons-213534042.ttf") format("truetype"), url("../fonts/icons-213534042.svg#icons-213534042") format("svg");
+  src: url("../fonts/icons-295580548.eot");
+  src: url("../fonts/icons-295580548.eot?#iefix") format("eot"), url("../fonts/icons-295580548.woff2") format("woff2"), url("../fonts/icons-295580548.woff") format("woff"), url("../fonts/icons-295580548.ttf") format("truetype"), url("../fonts/icons-295580548.svg#icons-295580548") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -31956,7 +31956,7 @@ h6.headline-group .headline-group__head {
 .lockup {
   display: block;
   position: relative;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-size: 0;
 }
 .lockup:link, .lockup:visited {
@@ -32064,6 +32064,7 @@ h6.headline-group .headline-group__head {
   position: relative;
   font-family: "usual", sans-serif;
   font-size: 0;
+  margin-right: 1rem;
 }
 .site-identity:link, .site-identity:visited {
   color: #c8c8c7;
@@ -32087,21 +32088,26 @@ h6.headline-group .headline-group__head {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #fff;
   vertical-align: middle;
   word-wrap: none;
 }
 .site-identity__logo .uk-logo-svg {
-  border-right: 1px #c8c8c7 solid;
   margin-right: 1.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 35rem) {
+  .site-identity__logo .uk-logo-svg {
+    border-right: 1px #c8c8c7 solid;
+  }
 }
 .site-identity__logo svg {
-  width: 10vw;
   min-width: 50px;
-  height: auto;
   margin-right: 1.5vw;
 }
 .site-identity__wordmark {
@@ -32123,6 +32129,9 @@ h6.headline-group .headline-group__head {
 .site-identity__wordmark__row--subhead {
   font-size: 3vw;
   font-weight: 300;
+}
+.site-identity__wordmark__row--subhead.no-mobile {
+  display: none;
 }
 .site-identity__unit {
   font-size: 0.875rem;
@@ -32156,6 +32165,10 @@ h6.headline-group .headline-group__head {
   }
   .site-identity__wordmark__row--subhead {
     font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .site-identity__wordmark__row--subhead.no-mobile {
+    display: inline;
   }
   .site-identity__unit {
     margin-left: 4.50625rem;
@@ -33741,7 +33754,7 @@ h6.headline-group .headline-group__head {
 .utility-nav a:link, .utility-nav a:visited {
   text-decoration: none;
 }
-.utility-nav a:hover, .utility-nav a:active {
+.utility-nav a:hover, .utility-nav a:active, .global-header .utility-nav a:hover, .global-header .utility-nav a:active {
   text-decoration: underline;
   color: #ffffff;
 }
@@ -34720,16 +34733,8 @@ h6.headline-group .headline-group__head {
   text-decoration: none;
 }
 .universal-breadcrumb .link--fancy-reverse {
-  font-size: 1rem;
-  line-height: 1rem;
   margin-left: -1rem;
   padding-left: 1rem;
-}
-@media screen and (min-width: 76rem) {
-  .universal-breadcrumb .link--fancy-reverse {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
 }
 .universal-breadcrumb .link--fancy-reverse::before {
   top: 0.05em;
@@ -34742,55 +34747,86 @@ h6.headline-group .headline-group__head {
   font-size: inherit;
 }
 .universal-breadcrumb ul {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 1rem;
   margin-left: 1rem;
   padding: 0;
-  font-family: "Mercury Display A", "Mercury Display B", serif;
+  font-family: "usual", sans-serif;
   font-weight: normal;
   list-style: none;
 }
 @media screen and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 35rem) {
   .universal-breadcrumb ul {
-    font-size: 1rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 35rem) and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 1rem;
+    font-size: 0.75rem;
     line-height: 1rem;
   }
 }
 @media screen and (min-width: 58rem) {
   .universal-breadcrumb ul {
-    font-size: 1.1667rem;
-    line-height: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
     margin: 0 0 0 1rem;
   }
 }
 @media screen and (min-width: 58rem) and (min-width: 76rem) {
   .universal-breadcrumb ul {
-    font-size: 1.1667rem;
-    line-height: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1rem;
   }
 }
 .universal-breadcrumb ul li {
   display: inline;
   position: relative;
-  margin-right: calc(2rem + 1px);
+  margin-right: 2rem;
+}
+.universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 76rem) and (min-width: 76rem) {
+  .universal-breadcrumb ul li .link--fancy-reverse, .universal-breadcrumb ul li a {
+    font-size: 0.875rem;
+    line-height: 1rem;
+  }
 }
 .universal-breadcrumb ul li::after {
   display: block;
   position: absolute;
   top: 50%;
-  right: -1rem;
+  right: -1.2rem;
   width: 1px;
   height: 1rem;
   -webkit-transform: translateY(-50%);
@@ -35708,8 +35744,7 @@ figure figcaption {
 
 .universal-header {
   display: none;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
   background-color: #041E42;
 }
 .universal-header .universal-header__layout {
@@ -35782,6 +35817,9 @@ figure figcaption {
   .global-header .utility-nav {
     display: block;
   }
+  .global-header .utility-nav .a:hover {
+    color: #ffffff;
+  }
 }
 @media screen and (min-width: 76rem) {
   .global-header .slab.global-header__masthead {
@@ -35798,9 +35836,9 @@ figure figcaption {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -35814,6 +35852,11 @@ figure figcaption {
       align-self: center;
 }
 @media screen and (min-width: 58rem) {
+  .global-header__banner {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
   .global-header__banner .toggle-button {
     display: none;
   }
@@ -35828,6 +35871,10 @@ figure figcaption {
 
 .global-megamenu--dark {
   background-color: #1f2c5e;
+}
+.global-megamenu--dark a.link-expandable__button:active, .global-megamenu--dark a.link-expandable__button:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
 .global-megamenu__nav-item {
   cursor: pointer;
@@ -35845,6 +35892,9 @@ figure figcaption {
 }
 .global-megamenu .global-megamenu__menu-button[aria-expanded=false] + .global-megamenu__slab {
   display: none;
+}
+.global-megamenu .global-megamenu__menu-button[aria-expanded=false] + .global-megamenu__slab a:hover {
+  color: #ffffff;
 }
 .global-megamenu .global-megamenu .menu__menu-button[aria-expanded=true] + .global-megamenu__slab {
   display: block;
@@ -35868,6 +35918,10 @@ figure figcaption {
 .global-megamenu .global-megamenu__slab--dark {
   background-color: #1f2c5e;
 }
+.global-megamenu .global-megamenu__slab--dark a:active, .global-megamenu .global-megamenu__slab--dark a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
 .global-megamenu .global-megamenu__slab .mega-menu__submenus,
 .global-megamenu .global-megamenu__slab .global-megamenu__description,
 .global-megamenu .global-megamenu__slab .global-megamenu__submenus {
@@ -35890,6 +35944,12 @@ figure figcaption {
     font-size: 1rem;
     line-height: 1rem;
   }
+}
+.global-megamenu .global-megamenu__slab .mega-menu__submenus a:active, .global-megamenu .global-megamenu__slab .mega-menu__submenus a:hover,
+.global-megamenu .global-megamenu__slab .global-megamenu__submenus a:active,
+.global-megamenu .global-megamenu__slab .global-megamenu__submenus a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
 @media screen and (min-width: 58rem) {
   .global-megamenu--dark {
