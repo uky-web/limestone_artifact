@@ -42,7 +42,11 @@ body {
 }
 
 .font-surveyor {
-  font-family: "Surveyor Display A", "Surveyor Display B", serif;
+  font-family: "bodoni-pt-variable", serif;
+}
+
+.font-bodini {
+  font-family: "bodoni-pt-variable", serif;
 }
 
 .font-tradegothic {
@@ -63,8 +67,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-295580548.eot");
-  src: url("../fonts/icons-295580548.eot?#iefix") format("eot"), url("../fonts/icons-295580548.woff2") format("woff2"), url("../fonts/icons-295580548.woff") format("woff"), url("../fonts/icons-295580548.ttf") format("truetype"), url("../fonts/icons-295580548.svg#icons-295580548") format("svg");
+  src: url("../fonts/icons-890855773.eot");
+  src: url("../fonts/icons-890855773.eot?#iefix") format("eot"), url("../fonts/icons-890855773.woff2") format("woff2"), url("../fonts/icons-890855773.woff") format("woff"), url("../fonts/icons-890855773.ttf") format("truetype"), url("../fonts/icons-890855773.svg#icons-890855773") format("svg");
   font-weight: normal;
   font-style: normal;
 }

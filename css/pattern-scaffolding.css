@@ -30,7 +30,11 @@ body {
 }
 
 .font-surveyor {
-  font-family: "Surveyor Display A", "Surveyor Display B", serif;
+  font-family: "bodoni-pt-variable", serif;
+}
+
+.font-bodini {
+  font-family: "bodoni-pt-variable", serif;
 }
 
 .font-tradegothic {
