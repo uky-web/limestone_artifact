@@ -7139,8 +7139,8 @@ body {
 
 @font-face {
   font-family: "iconfont";
-  src: url("../fonts/icons-210687807.eot");
-  src: url("../fonts/icons-210687807.eot?#iefix") format("eot"), url("../fonts/icons-210687807.woff2") format("woff2"), url("../fonts/icons-210687807.woff") format("woff"), url("../fonts/icons-210687807.ttf") format("truetype"), url("../fonts/icons-210687807.svg#icons-210687807") format("svg");
+  src: url("../fonts/icons-610890356.eot");
+  src: url("../fonts/icons-610890356.eot?#iefix") format("eot"), url("../fonts/icons-610890356.woff2") format("woff2"), url("../fonts/icons-610890356.woff") format("woff"), url("../fonts/icons-610890356.ttf") format("truetype"), url("../fonts/icons-610890356.svg#icons-610890356") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -32100,7 +32100,7 @@ h6.headline-group .headline-group__head {
   word-wrap: none;
 }
 .site-identity__logo .uk-logo-svg {
-  margin-right: 1.5vw;
+  margin-right: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
